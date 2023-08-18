@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		27AD29A5192B4338955B208F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BA4006FD6BC74A93B73264F8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0B5469B61DEB5B5F42B419C1 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		51FDE84F5A974370A9724FB2 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA56E8CB84F34328A9773062 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				56C50F5024FA4791B356FE61 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		7D0B06C52A5840C0AD713D03 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 16F4F0EEC3174AF8974D59FB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				85F2D100FDA566FA19084DE4 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				C9785AE538AB4A2B8AE2F341 /* PBXTargetDependency */,
+				B1F07AEE25C24DB1AB544A27 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		22E00CD4583A4BDBADBF6CA3 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/lodepng.cpp */ = {isa = PBXBuildFile; fileRef = 1E6F59CF4E814A428EC46289 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/lodepng.cpp */; };
+		34C7626B227546A9AA4915DB /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector3D.cpp */ = {isa = PBXBuildFile; fileRef = 73FE17084DE5492A8AC5E70C /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector3D.cpp */; };
+		390035CBD0154F6C960E086D /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector4D.cpp */ = {isa = PBXBuildFile; fileRef = 8EF7EC42B3FA43C6ACB34896 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector4D.cpp */; };
+		46BF7556947E4F64B940F8EC /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/quaternion.cpp */ = {isa = PBXBuildFile; fileRef = EC89758A78BB4551B87E1B00 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/quaternion.cpp */; };
+		555049C436F84AFB9ACBEB3F /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/spectrum.cpp */ = {isa = PBXBuildFile; fileRef = 710439A40C7442D09A4A37D2 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/spectrum.cpp */; };
+		77EEAAB00EE344759C62D655 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector2D.cpp */ = {isa = PBXBuildFile; fileRef = DDD17EED8DFE4E57824F51A6 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector2D.cpp */; };
+		AC6150E8A4AA415BB7FFCA9A /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/matrix4x4.cpp */ = {isa = PBXBuildFile; fileRef = F613A24380854E1E8B92ABD7 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/matrix4x4.cpp */; };
+		C51E89F033F7476BB3F108A4 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/complex.cpp */ = {isa = PBXBuildFile; fileRef = E273D7A4A32C42B4B0787A6B /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/complex.cpp */; };
+		DF882D5F2F2049E98F32061D /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 73BADE44EA3C4532B75E719F /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/tinyxml2.cpp */; };
+		E0F7F6DABF93445EA79F3A65 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/base64.cpp */ = {isa = PBXBuildFile; fileRef = BC083E1325114E9ABC7C1028 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/base64.cpp */; };
+		F2D73EFE21B5493CB71814B2 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F791ECB6E60247298EDA0308 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/CMakeLists.txt */; };
+		F4F183C0D67D405899376AB4 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/matrix3x3.cpp */ = {isa = PBXBuildFile; fileRef = F0022E055AF941358D10ACEE /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/matrix3x3.cpp */; };
+		FB66E27CD3E44F74812BB3CA /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/color.cpp */ = {isa = PBXBuildFile; fileRef = AC2B65B072BC4B81BB2F1D32 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/color.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3BC744AABF214EF799706702 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		62DC1A5CB9E945F09110A302 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		731E272A07784001A7837347 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		E8CE777CCC9E4F5A883BD71F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		12463F2675DA4806AAEB190E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F088E7A561945498F0E0AA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F3A7C29C4E4AC3A2C0E321;
+			remoteInfo = CGL;
+		};
+		45274CC3ED654154956B4FB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F088E7A561945498F0E0AA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D0B06C52A5840C0AD713D03;
+			remoteInfo = ALL_BUILD;
+		};
+		F6DC25B210394BD893722CBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F088E7A561945498F0E0AA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AD29A5192B4338955B208F;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E6F59CF4E814A428EC46289 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/lodepng.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lodepng.cpp; path = src/lodepng.cpp; sourceTree = SOURCE_ROOT; };
+		29B48DB6CBA441BC85C4A2C9 /* CGL */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCGL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		710439A40C7442D09A4A37D2 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/spectrum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = spectrum.cpp; path = src/spectrum.cpp; sourceTree = SOURCE_ROOT; };
+		73BADE44EA3C4532B75E719F /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = src/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		73FE17084DE5492A8AC5E70C /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector3D.cpp; path = src/vector3D.cpp; sourceTree = SOURCE_ROOT; };
+		8EF7EC42B3FA43C6ACB34896 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector4D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector4D.cpp; path = src/vector4D.cpp; sourceTree = SOURCE_ROOT; };
+		AC2B65B072BC4B81BB2F1D32 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color.cpp; path = src/color.cpp; sourceTree = SOURCE_ROOT; };
+		BC083E1325114E9ABC7C1028 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/base64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base64.cpp; path = src/base64.cpp; sourceTree = SOURCE_ROOT; };
+		DDD17EED8DFE4E57824F51A6 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector2D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector2D.cpp; path = src/vector2D.cpp; sourceTree = SOURCE_ROOT; };
+		E273D7A4A32C42B4B0787A6B /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/complex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = complex.cpp; path = src/complex.cpp; sourceTree = SOURCE_ROOT; };
+		E4A0DD4602AB4CD395811C38 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EC89758A78BB4551B87E1B00 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/quaternion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quaternion.cpp; path = src/quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		F0022E055AF941358D10ACEE /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/matrix3x3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix3x3.cpp; path = src/matrix3x3.cpp; sourceTree = SOURCE_ROOT; };
+		F613A24380854E1E8B92ABD7 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/matrix4x4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix4x4.cpp; path = src/matrix4x4.cpp; sourceTree = SOURCE_ROOT; };
+		F791ECB6E60247298EDA0308 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DDB810A22FE4D808C25F671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34BFA935F73E4EC78DD009FF /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				840A7DBA01FE40FD9779D5B6 /* CMake Rules */,
+				E4A0DD4602AB4CD395811C38 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5EC1D09A6444441CBAF0E293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840A7DBA01FE40FD9779D5B6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8D012E3C50A14AE7A171D298 = {
+			isa = PBXGroup;
+			children = (
+				34BFA935F73E4EC78DD009FF /* ALL_BUILD */,
+				960E70DE7CE446A89E73BF45 /* CGL */,
+				930AADD1B5C84E9AA57DCFC3 /* Products */,
+				5EC1D09A6444441CBAF0E293 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		930AADD1B5C84E9AA57DCFC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29B48DB6CBA441BC85C4A2C9 /* CGL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960E70DE7CE446A89E73BF45 /* CGL */ = {
+			isa = PBXGroup;
+			children = (
+				BDE01619C0B24A4BBD565417 /* Source Files */,
+				F791ECB6E60247298EDA0308 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/CMakeLists.txt */,
+			);
+			name = CGL;
+			sourceTree = "<group>";
+		};
+		BDE01619C0B24A4BBD565417 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC083E1325114E9ABC7C1028 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/base64.cpp */,
+				AC2B65B072BC4B81BB2F1D32 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/color.cpp */,
+				E273D7A4A32C42B4B0787A6B /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/complex.cpp */,
+				1E6F59CF4E814A428EC46289 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/lodepng.cpp */,
+				F0022E055AF941358D10ACEE /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/matrix3x3.cpp */,
+				F613A24380854E1E8B92ABD7 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/matrix4x4.cpp */,
+				EC89758A78BB4551B87E1B00 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/quaternion.cpp */,
+				710439A40C7442D09A4A37D2 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/spectrum.cpp */,
+				73BADE44EA3C4532B75E719F /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/tinyxml2.cpp */,
+				DDD17EED8DFE4E57824F51A6 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector2D.cpp */,
+				73FE17084DE5492A8AC5E70C /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector3D.cpp */,
+				8EF7EC42B3FA43C6ACB34896 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector4D.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40F3A7C29C4E4AC3A2C0E321 /* CGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B94EF3063D4F7A9DF9ACA0 /* Build configuration list for PBXNativeTarget "CGL" */;
+			buildPhases = (
+				FD71A72F68BC4F22B9670E8A /* Sources */,
+				2DDB810A22FE4D808C25F671 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGL;
+			productName = CGL;
+			productReference = 29B48DB6CBA441BC85C4A2C9 /* CGL */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F088E7A561945498F0E0AA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 70F4CFD476AE4E979C9FAFB1 /* Build configuration list for PBXProject "CGL" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				731E272A07784001A7837347 /* Debug */,
+				3BC744AABF214EF799706702 /* Release */,
+				E8CE777CCC9E4F5A883BD71F /* MinSizeRel */,
+				62DC1A5CB9E945F09110A302 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8D012E3C50A14AE7A171D298;
+			projectDirPath = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL";
+			projectRoot = "";
+			targets = (
+				7D0B06C52A5840C0AD713D03 /* ALL_BUILD */,
+				40F3A7C29C4E4AC3A2C0E321 /* CGL */,
+				27AD29A5192B4338955B208F /* ZERO_CHECK */,
+				51FDE84F5A974370A9724FB2 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B5469B61DEB5B5F42B419C1 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  make -f /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  make -f /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  make -f /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  make -f /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		85F2D100FDA566FA19084DE4 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL
+  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD71A72F68BC4F22B9670E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F7F6DABF93445EA79F3A65 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/base64.cpp */,
+				FB66E27CD3E44F74812BB3CA /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/color.cpp */,
+				C51E89F033F7476BB3F108A4 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/complex.cpp */,
+				22E00CD4583A4BDBADBF6CA3 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/lodepng.cpp */,
+				F4F183C0D67D405899376AB4 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/matrix3x3.cpp */,
+				AC6150E8A4AA415BB7FFCA9A /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/matrix4x4.cpp */,
+				46BF7556947E4F64B940F8EC /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/quaternion.cpp */,
+				555049C436F84AFB9ACBEB3F /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/spectrum.cpp */,
+				DF882D5F2F2049E98F32061D /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/tinyxml2.cpp */,
+				77EEAAB00EE344759C62D655 /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector2D.cpp */,
+				34C7626B227546A9AA4915DB /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector3D.cpp */,
+				390035CBD0154F6C960E086D /* /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/src/vector4D.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56C50F5024FA4791B356FE61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D0B06C52A5840C0AD713D03 /* ALL_BUILD */;
+			targetProxy = 45274CC3ED654154956B4FB3 /* PBXContainerItemProxy */;
+		};
+		B1F07AEE25C24DB1AB544A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AD29A5192B4338955B208F /* ZERO_CHECK */;
+			targetProxy = F6DC25B210394BD893722CBC /* PBXContainerItemProxy */;
+		};
+		C9785AE538AB4A2B8AE2F341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F3A7C29C4E4AC3A2C0E321 /* CGL */;
+			targetProxy = 12463F2675DA4806AAEB190E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C7A2E6AEDF34BC6A36D3F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2A90CE1D80C8426EA03B2D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build";
+			};
+			name = Debug;
+		};
+		2B2D2B9C668C4CB191055E0D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2CE1E4F1DC044291929B1843 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		42C4DD2C6CBD46DA9E80895F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4AB0A0E158B247BE8A3B20F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_SHARED,NVG_SHARED,GLAD_GLAPI_EXPORT,NANOGUI_GLAD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",/opt/homebrew/include/freetype2,"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include/CGL","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register     -DNDEBUG -Wno-constant-conversion ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		528B1144A04C4E63A5A8DB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		73080BA7113B45459F874596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		77E4A32C91C0404681681D33 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_SHARED,NVG_SHARED,GLAD_GLAPI_EXPORT,NANOGUI_GLAD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",/opt/homebrew/include/freetype2,"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include/CGL","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register        -DNDEBUG -Wno-constant-conversion ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8D91EA6DD7034778B6903A18 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8DFB3C3432BA43A0842DE649 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9464A66C835541D7B5CA34BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A1FA765DA91E4E08ACAFF05C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A7E3E5DAE6E24693A7F5ADA8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AB1E63C0221A4C4680047532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BA6E4B1724C74BA1B0BF6948 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_SHARED,NVG_SHARED,GLAD_GLAPI_EXPORT,NANOGUI_GLAD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",/opt/homebrew/include/freetype2,"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include/CGL","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register     -DNDEBUG -Wno-constant-conversion ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DC025485382F4C5DAB4DDC5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build";
+			};
+			name = Release;
+		};
+		F0F46DEBCF7A4975AA77CDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F5E288AD2F95406FAF8398DD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FF48840539D04849B5FCEEDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",NANOGUI_SHARED,NVG_SHARED,GLAD_GLAPI_EXPORT,NANOGUI_GLAD,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",/opt/homebrew/include/freetype2,"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen","/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include/CGL","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -std=c++11 -m64     -funroll-loops -Wno-narrowing -Wno-deprecated-register    -Wno-constant-conversion ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B94EF3063D4F7A9DF9ACA0 /* Build configuration list for PBXNativeTarget "CGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF48840539D04849B5FCEEDD /* Debug */,
+				4AB0A0E158B247BE8A3B20F1 /* Release */,
+				BA6E4B1724C74BA1B0BF6948 /* MinSizeRel */,
+				77E4A32C91C0404681681D33 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		16F4F0EEC3174AF8974D59FB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73080BA7113B45459F874596 /* Debug */,
+				9464A66C835541D7B5CA34BE /* Release */,
+				F5E288AD2F95406FAF8398DD /* MinSizeRel */,
+				8D91EA6DD7034778B6903A18 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		70F4CFD476AE4E979C9FAFB1 /* Build configuration list for PBXProject "CGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A90CE1D80C8426EA03B2D69 /* Debug */,
+				DC025485382F4C5DAB4DDC5A /* Release */,
+				2CE1E4F1DC044291929B1843 /* MinSizeRel */,
+				2B2D2B9C668C4CB191055E0D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA56E8CB84F34328A9773062 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F46DEBCF7A4975AA77CDAC /* Debug */,
+				AB1E63C0221A4C4680047532 /* Release */,
+				A1FA765DA91E4E08ACAFF05C /* MinSizeRel */,
+				A7E3E5DAE6E24693A7F5ADA8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BA4006FD6BC74A93B73264F8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528B1144A04C4E63A5A8DB29 /* Debug */,
+				0C7A2E6AEDF34BC6A36D3F55 /* Release */,
+				42C4DD2C6CBD46DA9E80895F /* MinSizeRel */,
+				8DFB3C3432BA43A0842DE649 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F088E7A561945498F0E0AA6 /* Project object */;
+}

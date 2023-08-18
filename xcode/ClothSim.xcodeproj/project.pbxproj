@@ -1,0 +1,3332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		27AD29A5192B4338955B208F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 72249A4FBFA441A7BAC919AB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				BE54C4B90DADC3CB4DD06D1F /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		51FDE84F5A974370A9724FB2 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D904457912D3470787FC8CB0 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				A686D442130E4C23BBA74E41 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		7D0B06C52A5840C0AD713D03 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 315F2E5F47624FA18046B88E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				38D4E6E9FEC8189F033EFBD8 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				342B1D437A924CF1B5D88C4E /* PBXTargetDependency */,
+				F4F2BD9C9C214DF7A803BFBB /* PBXTargetDependency */,
+				C5ED95BEE7ED4721A8A511B1 /* PBXTargetDependency */,
+				B6C90457D4BF437EB9A69369 /* PBXTargetDependency */,
+				FF85E042893446349DFD076B /* PBXTargetDependency */,
+				DFC58169DA544511A2933255 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00D5E98843C74B5C90996C7B /* layout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC190AD02FC439BAB2CFEA9 /* layout.cpp */; };
+		061B6D27FAEA4F1CB6177F89 /* button.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE3BFDB8CA934DA7B507E6C3 /* button.cpp */; };
+		061FEEAD06694900809FCB4A /* spectrum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BC6EEE3E00B45568D460C64 /* spectrum.cpp */; };
+		07DFE39812524E7DA376DCBD /* imagepanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0683F1A679E4F66A37C61A1 /* imagepanel.cpp */; };
+		0B3AC18F54434F9398175222 /* cocoa_window.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D13DFB11E041C888D25975 /* cocoa_window.m */; };
+		0E4C3367ACD641E7A3BA0FFB /* serializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61BD3EBA72014B50BBFD2E2A /* serializer.cpp */; };
+		1271883CB0144B9285B6FD56 /* lodepng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42C6F587F5EA44DB94BC88EC /* lodepng.cpp */; };
+		1618776CD577401AB91E40D9 /* context.c in Sources */ = {isa = PBXBuildFile; fileRef = E55650965766457F91B0A8F2 /* context.c */; };
+		1637D57916314C5692DCD88E /* file_utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAC550B56F3A4B81B244D163 /* file_utils.cpp */; };
+		16CD73C911EB4519B1639FA8 /* colorpicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 777B684933DC4119991F2D57 /* colorpicker.cpp */; };
+		17763582CF7B43C9A5193BB0 /* input.c in Sources */ = {isa = PBXBuildFile; fileRef = E5BA4AF3993A456E954D3204 /* input.c */; };
+		27F7DD28CE33471D9F001424 /* glcanvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BDCFE97912D4949A0764623 /* glcanvas.cpp */; };
+		299F8A147D3945F690341E67 /* imageview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A35513A278493C8F15F154 /* imageview.cpp */; };
+		2FDEC0107A3747978C9FC1B0 /* popup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56B9780E116A4BCDA1BE418A /* popup.cpp */; };
+		3BBD290C68E64CD29F899347 /* sphere_drawing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18A55111417D415595AB8FCD /* sphere_drawing.cpp */; };
+		44B3A9C969F34D7C9DDAFE65 /* colorwheel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A35377095EBC40FF97691C6A /* colorwheel.cpp */; };
+		4F18A606E66241ADAC3ADB2A /* cocoa_init.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F91132A1AC4506890E2807 /* cocoa_init.m */; };
+		50E4FB2AE42D400182CCF3B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A05A22AFBB1D4278A69E8630 /* main.cpp */; };
+		510C9F0441374258A92612DE /* plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F010B1C5A4A41949A1D4507 /* plane.cpp */; };
+		5486A923B31249EE92D20A35 /* vector3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F961C7CA0EF447B83778234 /* vector3D.cpp */; };
+		5FA32C44A4E74FF2B975167D /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = B8EB4E9A0A1E4100A5B88696 /* glad.c */; };
+		656CFA997CD54CCCB926C112 /* checkbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7144FC6441148018612BDA0 /* checkbox.cpp */; };
+		672046007AA84BC190F71F57 /* cloth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 964A7E477DBD484E9DCC3C34 /* cloth.cpp */; };
+		6D70C3004506493E8E61A6F7 /* xcode_dummy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E98AAF99842078B650FFE /* xcode_dummy.cpp */; };
+		6ED48C6BC0DE4A6A8BD79A08 /* vulkan.c in Sources */ = {isa = PBXBuildFile; fileRef = 210CF09654F14ED5A5D675F7 /* vulkan.c */; };
+		702926B3E0DA4EA7BC6B6119 /* label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 85A127D8584A4886A0D693B2 /* label.cpp */; };
+		74DFFB26BA9748C0B963CF98 /* screen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A1C089E197444DF84244DAE /* screen.cpp */; };
+		76FC41E12A0082290051A28A /* liquid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76FC41E02A0082290051A28A /* liquid.cpp */; };
+		76FC41E42A0082770051A28A /* particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 76FC41E32A0082770051A28A /* particle.cpp */; };
+		7859A21AFD32427F966E97BE /* quaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30EE1DE68AE84EBEBDBC9D33 /* quaternion.cpp */; };
+		7B6E5F9AA68C49E9B9A66579 /* progressbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 86C6D241F8FC463698579929 /* progressbar.cpp */; };
+		7BA0E42EE9194BC79D6D98D6 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B149FA766710488AAE418369 /* camera.cpp */; };
+		7F1B93D362594B5C94F1E7C6 /* posix_tls.c in Sources */ = {isa = PBXBuildFile; fileRef = 7EC5ED98AA4A4047ADAA8956 /* posix_tls.c */; };
+		808B3E6664124065A9EE8F71 /* tinyxml2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BA0E518C9D742C08F48855B /* tinyxml2.cpp */; };
+		80ECE803DD894D4CABF7E4B4 /* init.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D159D694DAC4D5A80A8D468 /* init.c */; };
+		8257198DE6B84C51A454F606 /* sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79277D7B90364618A65869EF /* sphere.cpp */; };
+		85982771FE5B4FDEB1AE92FC /* darwin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6BE665DBAA1B4805B698A44A /* darwin.mm */; };
+		8AE2A059DFE84137A764F3CD /* combobox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 675C872BB24C42128F890DB6 /* combobox.cpp */; };
+		8D4E82AE77FC4F8ABD243775 /* window.c in Sources */ = {isa = PBXBuildFile; fileRef = 4640435E4AD34EDBB2558367 /* window.c */; };
+		8E46D495141945808AD4098F /* glutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 229F33732B7745A192C755CA /* glutil.cpp */; };
+		8E629FA581604E738CCA3EAF /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C55A8AD018440CDA4A20FFF /* common.cpp */; };
+		9129EB19807E432380CFF345 /* messagedialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C2136FC1485E43D381826D66 /* messagedialog.cpp */; };
+		978708D7D1BD4932B33F292B /* clothSimulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D1DD3015148F28466D572 /* clothSimulator.cpp */; };
+		9FFE267DA9494F7BB945AEAC /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C05B87AC4DB4FB99E744EE3 /* graph.cpp */; };
+		A1D11CCE42594EF680BE97CE /* cocoa_joystick.m in Sources */ = {isa = PBXBuildFile; fileRef = AC25FCA224734C9FB5C26FFA /* cocoa_joystick.m */; };
+		A3C5E479DDBB401FB7BEEFC6 /* vscrollpanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 88B4979C60324B95929C14AF /* vscrollpanel.cpp */; };
+		A837BDAB53584BFEA27EAB92 /* complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C4B63018621484D8555127D /* complex.cpp */; };
+		AF381389C8CC419180972581 /* base64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 016FA2E0ED7145B1B04ECF91 /* base64.cpp */; };
+		B151F7141775482693C4E7FA /* tabheader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59D0EFB3EB2B4E598E98BAAD /* tabheader.cpp */; };
+		B60C73C783A14AB887E56D6A /* nsgl_context.m in Sources */ = {isa = PBXBuildFile; fileRef = E31D21D34EF8450993DB6AC2 /* nsgl_context.m */; };
+		B666467AEAD046809FE505E7 /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FE576B05A5054EC9847D6C4C /* color.cpp */; };
+		B78FA7F5215043C5B9826756 /* nanovg.c in Sources */ = {isa = PBXBuildFile; fileRef = B61B9CC40B2A42DFA0641D38 /* nanovg.c */; };
+		C5EB3F1759F14A33A8AE1626 /* window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96CC7897EEC847E3A680AD77 /* window.cpp */; };
+		CA7DF880B3EA4EB8914C8EB3 /* theme.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71145FBB8E18495389AB4C9F /* theme.cpp */; };
+		CFB5F0726BA44809A6B13F55 /* widget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F14DE05A49FB45AA9CD79722 /* widget.cpp */; };
+		D36AF2664DC04CBEAAE14B48 /* vector4D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0500D7EC7D1446EB7AEE087 /* vector4D.cpp */; };
+		D9E3B8827917492A829FAF8B /* cocoa_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 7462DED8F2FC463A8915D104 /* cocoa_time.c */; };
+		DA603EAF40C2449EBFB7908F /* vector2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBDCC881904D738E805BF1 /* vector2D.cpp */; };
+		E07D190C2D494404B5A8E464 /* slider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2966B19049FA4207A9E5C642 /* slider.cpp */; };
+		E08DDED51EA64310A3FCEA95 /* nanogui_resources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A8C36E9DBE164F9F98E8E075 /* nanogui_resources.cpp */; };
+		E1A0B5C67E864316AFAD609C /* popupbutton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8450C119164DE49C0EA673 /* popupbutton.cpp */; };
+		E33E0ED6955F4B0099CF3FE0 /* matrix3x3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0E8D7FAE8E04136A83DB712 /* matrix3x3.cpp */; };
+		EB01C763675D4C4780C8D025 /* clothMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87FCCA39F4D4F6B86B2199C /* clothMesh.cpp */; };
+		EBCA9BFDB5C8409986DBFF4A /* textbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DFF5192899EB4B19965FB97B /* textbox.cpp */; };
+		ECCB9FC296B3423BA40B0019 /* monitor.c in Sources */ = {isa = PBXBuildFile; fileRef = 75A0E188F91243F991DAB374 /* monitor.c */; };
+		F6F2C11FB3064EA791C50368 /* cocoa_monitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BF0CF54348D4F938D09F709 /* cocoa_monitor.m */; };
+		F8AB12A2B9504AF0B01524EA /* tabwidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFE3A67BCFE54609915CAE6E /* tabwidget.cpp */; };
+		FAC8A4DB8FA149BDAD8B0E92 /* stackedwidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4243B48F9AE14B8DB608CF84 /* stackedwidget.cpp */; };
+		FFE3497F21034B1982919C67 /* matrix4x4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23D49F493C594E54BC380A60 /* matrix4x4.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02CD7BA886764B2F871567A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910AE0D5DCC2424CA160D224;
+			remoteInfo = glfw_objects;
+		};
+		29220579CF634C2E844E99FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA069B49EB6A4E529F4E6A0F;
+			remoteInfo = nanogui;
+		};
+		2BA924DBA9794349B253A011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910AE0D5DCC2424CA160D224;
+			remoteInfo = glfw_objects;
+		};
+		5AF4DEA866CF4B9FB09723D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260F29601CBF4FF3863A45E3;
+			remoteInfo = "nanogui-obj";
+		};
+		96EAF52F75F743F4841C8684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1F21A87FF54C8CAC95AA4E;
+			remoteInfo = clothsim;
+		};
+		9C025F02039749C58FF856BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA069B49EB6A4E529F4E6A0F;
+			remoteInfo = nanogui;
+		};
+		9D399E6DC2A84F53A9D4D9CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA069B49EB6A4E529F4E6A0F;
+			remoteInfo = nanogui;
+		};
+		A1BB1B8BFE5F4AB8BB35DAA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 910AE0D5DCC2424CA160D224;
+			remoteInfo = glfw_objects;
+		};
+		A5C61B5CA53046ABA191E9AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F3A7C29C4E4AC3A2C0E321;
+			remoteInfo = CGL;
+		};
+		B3F597EC7C2945AB9EA49045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260F29601CBF4FF3863A45E3;
+			remoteInfo = "nanogui-obj";
+		};
+		D2BC7AF3A7874232B8006075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27AD29A5192B4338955B208F;
+			remoteInfo = ZERO_CHECK;
+		};
+		D9ED5DAB3A064611A8331A96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D0B06C52A5840C0AD713D03;
+			remoteInfo = ALL_BUILD;
+		};
+		DF7627B378264D55B8358595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2C9766AA54A426B92EE5069 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40F3A7C29C4E4AC3A2C0E321;
+			remoteInfo = CGL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016FA2E0ED7145B1B04ECF91 /* base64.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = base64.cpp; path = CGL/src/base64.cpp; sourceTree = SOURCE_ROOT; };
+		021B6855E48F499AA24F6133 /* core.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = core.h; path = ext/nanogui/include/nanogui/serializer/core.h; sourceTree = SOURCE_ROOT; };
+		03D4F9422652443999D5E0E1 /* theme.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = theme.h; path = ext/nanogui/include/nanogui/theme.h; sourceTree = SOURCE_ROOT; };
+		089954497ECB4AD7B652E12A /* widget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = widget.h; path = ext/nanogui/include/nanogui/widget.h; sourceTree = SOURCE_ROOT; };
+		0A9F6283A52D490B81EF10C7 /* nanogui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nanogui.h; path = ext/nanogui/include/nanogui/nanogui.h; sourceTree = SOURCE_ROOT; };
+		0B5E98AAF99842078B650FFE /* xcode_dummy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xcode_dummy.cpp; path = xcode/ext/nanogui/xcode_dummy.cpp; sourceTree = SOURCE_ROOT; };
+		0BC6EEE3E00B45568D460C64 /* spectrum.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = spectrum.cpp; path = CGL/src/spectrum.cpp; sourceTree = SOURCE_ROOT; };
+		0BDCFE97912D4949A0764623 /* glcanvas.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glcanvas.cpp; path = ext/nanogui/src/glcanvas.cpp; sourceTree = SOURCE_ROOT; };
+		0CE10724A5C642599BB8E147 /* opengl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opengl.h; path = ext/nanogui/include/nanogui/opengl.h; sourceTree = SOURCE_ROOT; };
+		18A55111417D415595AB8FCD /* sphere_drawing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sphere_drawing.cpp; path = src/misc/sphere_drawing.cpp; sourceTree = SOURCE_ROOT; };
+		1B5EFFC7EAEC41C0A3991FD0 /* Cocoa.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1BA0E518C9D742C08F48855B /* tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = CGL/src/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		1BC9A958C1324F46B3FD245E /* CoreFoundation.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		1C05B87AC4DB4FB99E744EE3 /* graph.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = graph.cpp; path = ext/nanogui/src/graph.cpp; sourceTree = SOURCE_ROOT; };
+		1C4B63018621484D8555127D /* complex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = complex.cpp; path = CGL/src/complex.cpp; sourceTree = SOURCE_ROOT; };
+		1D309AE3C353444D8AD5722A /* cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = ext/nanogui/ext/glfw/src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		1FC6C1BE10344F3DBD89AE94 /* CoreVideo.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		210CF09654F14ED5A5D675F7 /* vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = ext/nanogui/ext/glfw/src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		220410667A884822983C447E /* glad.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glad.h; path = ext/nanogui/ext/glad/include/glad/glad.h; sourceTree = SOURCE_ROOT; };
+		229F33732B7745A192C755CA /* glutil.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = glutil.cpp; path = ext/nanogui/src/glutil.cpp; sourceTree = SOURCE_ROOT; };
+		233037971FE94822A5ACC3EB /* slider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = slider.h; path = ext/nanogui/include/nanogui/slider.h; sourceTree = SOURCE_ROOT; };
+		23D49F493C594E54BC380A60 /* matrix4x4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix4x4.cpp; path = CGL/src/matrix4x4.cpp; sourceTree = SOURCE_ROOT; };
+		2574560898E24022A4EDA282 /* glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = ext/nanogui/ext/glfw/include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		2966B19049FA4207A9E5C642 /* slider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = slider.cpp; path = ext/nanogui/src/slider.cpp; sourceTree = SOURCE_ROOT; };
+		2C55A8AD018440CDA4A20FFF /* common.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = common.cpp; path = ext/nanogui/src/common.cpp; sourceTree = SOURCE_ROOT; };
+		2D10DD94394A4B06B0CF5926 /* progressbar.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = progressbar.h; path = ext/nanogui/include/nanogui/progressbar.h; sourceTree = SOURCE_ROOT; };
+		2E2AC79B3CFD4B23B9FF26AF /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ext/nanogui/ext/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2F010B1C5A4A41949A1D4507 /* plane.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plane.cpp; path = src/collision/plane.cpp; sourceTree = SOURCE_ROOT; };
+		30EE1DE68AE84EBEBDBC9D33 /* quaternion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quaternion.cpp; path = CGL/src/quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		32DCFFCEAFCF4D3BBC096277 /* checkbox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = checkbox.h; path = ext/nanogui/include/nanogui/checkbox.h; sourceTree = SOURCE_ROOT; };
+		33C4606CE6904DFBA6A50F96 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		36270805CD754F19BD002CF8 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ext/nanogui/ext/glfw/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		38CC2C1F6CDB4906B6BD8A3F /* OpenGL.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		39F91132A1AC4506890E2807 /* cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = ext/nanogui/ext/glfw/src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		3BF0CF54348D4F938D09F709 /* cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = ext/nanogui/ext/glfw/src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		3C2093EE309E4AC3AE5BFDF8 /* nanogui_resources.cpp.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = nanogui_resources.cpp.rule; path = xcode/ext/nanogui/nanogui_resources.cpp.rule; sourceTree = SOURCE_ROOT; };
+		3C9D1DD3015148F28466D572 /* clothSimulator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clothSimulator.cpp; path = src/clothSimulator.cpp; sourceTree = SOURCE_ROOT; };
+		3D159D694DAC4D5A80A8D468 /* init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = ext/nanogui/ext/glfw/src/init.c; sourceTree = SOURCE_ROOT; };
+		3E42DE1415AF4A3DB340965C /* libnanogui-obj.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libnanogui-obj.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D9C84227994EE38E000C35 /* posix_tls.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_tls.h; path = ext/nanogui/ext/glfw/src/posix_tls.h; sourceTree = SOURCE_ROOT; };
+		4243B48F9AE14B8DB608CF84 /* stackedwidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stackedwidget.cpp; path = ext/nanogui/src/stackedwidget.cpp; sourceTree = SOURCE_ROOT; };
+		42C6F587F5EA44DB94BC88EC /* lodepng.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lodepng.cpp; path = CGL/src/lodepng.cpp; sourceTree = SOURCE_ROOT; };
+		4640435E4AD34EDBB2558367 /* window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = ext/nanogui/ext/glfw/src/window.c; sourceTree = SOURCE_ROOT; };
+		4A1C089E197444DF84244DAE /* screen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = screen.cpp; path = ext/nanogui/src/screen.cpp; sourceTree = SOURCE_ROOT; };
+		4ABE687DF9C944A3A9B872D6 /* vscrollpanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vscrollpanel.h; path = ext/nanogui/include/nanogui/vscrollpanel.h; sourceTree = SOURCE_ROOT; };
+		4BF70A10291E4BBD94435DE3 /* screen.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = screen.h; path = ext/nanogui/include/nanogui/screen.h; sourceTree = SOURCE_ROOT; };
+		4C410C4FDA3147B8B79EBE9E /* sparse.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = sparse.h; path = ext/nanogui/include/nanogui/serializer/sparse.h; sourceTree = SOURCE_ROOT; };
+		4CB8980EA22640BAAA2A222E /* colorpicker.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorpicker.h; path = ext/nanogui/include/nanogui/colorpicker.h; sourceTree = SOURCE_ROOT; };
+		56B9780E116A4BCDA1BE418A /* popup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = popup.cpp; path = ext/nanogui/src/popup.cpp; sourceTree = SOURCE_ROOT; };
+		59D0EFB3EB2B4E598E98BAAD /* tabheader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tabheader.cpp; path = ext/nanogui/src/tabheader.cpp; sourceTree = SOURCE_ROOT; };
+		5AE24C6ED67B4A559353F1D6 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = CGL/src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5CA068555687432493A9C632 /* popupbutton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = popupbutton.h; path = ext/nanogui/include/nanogui/popupbutton.h; sourceTree = SOURCE_ROOT; };
+		5EB626AC708247DA86DC7647 /* IOKit.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		61BD3EBA72014B50BBFD2E2A /* serializer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = serializer.cpp; path = ext/nanogui/src/serializer.cpp; sourceTree = SOURCE_ROOT; };
+		6715C0B0FB4E4C14972032FE /* common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = common.h; path = ext/nanogui/include/nanogui/common.h; sourceTree = SOURCE_ROOT; };
+		675C872BB24C42128F890DB6 /* combobox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = combobox.cpp; path = ext/nanogui/src/combobox.cpp; sourceTree = SOURCE_ROOT; };
+		6A0191E6513E40ADA651A520 /* cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = ext/nanogui/ext/glfw/src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		6A4EA7DDD40341C5BCF1B4AF /* imageview.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imageview.h; path = ext/nanogui/include/nanogui/imageview.h; sourceTree = SOURCE_ROOT; };
+		6B901011708D47ADBE5C3C3E /* window.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = window.h; path = ext/nanogui/include/nanogui/window.h; sourceTree = SOURCE_ROOT; };
+		6BE665DBAA1B4805B698A44A /* darwin.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = darwin.mm; path = ext/nanogui/src/darwin.mm; sourceTree = SOURCE_ROOT; };
+		6E20E83AA69E4BF98DC8F87A /* nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = ext/nanogui/ext/glfw/src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		71145FBB8E18495389AB4C9F /* theme.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = theme.cpp; path = ext/nanogui/src/theme.cpp; sourceTree = SOURCE_ROOT; };
+		72D0F7A6964B47C68E79EF51 /* tabwidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tabwidget.h; path = ext/nanogui/include/nanogui/tabwidget.h; sourceTree = SOURCE_ROOT; };
+		738AF551A7D443BAAD8766CE /* imagepanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = imagepanel.h; path = ext/nanogui/include/nanogui/imagepanel.h; sourceTree = SOURCE_ROOT; };
+		7462DED8F2FC463A8915D104 /* cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = ext/nanogui/ext/glfw/src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		75A0E188F91243F991DAB374 /* monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = ext/nanogui/ext/glfw/src/monitor.c; sourceTree = SOURCE_ROOT; };
+		76878FC0E54A45CE93B23587 /* textbox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = textbox.h; path = ext/nanogui/include/nanogui/textbox.h; sourceTree = SOURCE_ROOT; };
+		76FC41DF2A0082290051A28A /* liquid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = liquid.h; path = src/liquid.h; sourceTree = "<group>"; };
+		76FC41E02A0082290051A28A /* liquid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = liquid.cpp; path = src/liquid.cpp; sourceTree = "<group>"; };
+		76FC41E22A0082770051A28A /* particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = particle.h; path = src/collision/particle.h; sourceTree = "<group>"; };
+		76FC41E32A0082770051A28A /* particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = particle.cpp; path = src/collision/particle.cpp; sourceTree = "<group>"; };
+		777B684933DC4119991F2D57 /* colorpicker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorpicker.cpp; path = ext/nanogui/src/colorpicker.cpp; sourceTree = SOURCE_ROOT; };
+		7911FA07145C40FEAEB3413E /* glutil.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glutil.h; path = ext/nanogui/include/nanogui/glutil.h; sourceTree = SOURCE_ROOT; };
+		79277D7B90364618A65869EF /* sphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sphere.cpp; path = src/collision/sphere.cpp; sourceTree = SOURCE_ROOT; };
+		7EC5ED98AA4A4047ADAA8956 /* posix_tls.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_tls.c; path = ext/nanogui/ext/glfw/src/posix_tls.c; sourceTree = SOURCE_ROOT; };
+		85A127D8584A4886A0D693B2 /* label.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = label.cpp; path = ext/nanogui/src/label.cpp; sourceTree = SOURCE_ROOT; };
+		86C6D241F8FC463698579929 /* progressbar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = progressbar.cpp; path = ext/nanogui/src/progressbar.cpp; sourceTree = SOURCE_ROOT; };
+		88B4979C60324B95929C14AF /* vscrollpanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vscrollpanel.cpp; path = ext/nanogui/src/vscrollpanel.cpp; sourceTree = SOURCE_ROOT; };
+		88BA07A4B0F14B22B0537106 /* khrplatform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = khrplatform.h; path = ext/nanogui/ext/glad/include/KHR/khrplatform.h; sourceTree = SOURCE_ROOT; };
+		916558D883D043C7BEE5CBFD /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		93696980EC5D4B6C94DDE0C6 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ext/nanogui/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		964A7E477DBD484E9DCC3C34 /* cloth.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cloth.cpp; path = src/cloth.cpp; sourceTree = SOURCE_ROOT; };
+		96CC7897EEC847E3A680AD77 /* window.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = window.cpp; path = ext/nanogui/src/window.cpp; sourceTree = SOURCE_ROOT; };
+		9D01CCFA0DA64F13946858A1 /* graph.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = graph.h; path = ext/nanogui/include/nanogui/graph.h; sourceTree = SOURCE_ROOT; };
+		9F961C7CA0EF447B83778234 /* vector3D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector3D.cpp; path = CGL/src/vector3D.cpp; sourceTree = SOURCE_ROOT; };
+		9FEBDCC881904D738E805BF1 /* vector2D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector2D.cpp; path = CGL/src/vector2D.cpp; sourceTree = SOURCE_ROOT; };
+		A05A22AFBB1D4278A69E8630 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		A0CB8BCB99BB44DC88E90079 /* glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = xcode/ext/nanogui/ext_build/glfw/src/glfw_config.h; sourceTree = SOURCE_ROOT; };
+		A1A35513A278493C8F15F154 /* imageview.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imageview.cpp; path = ext/nanogui/src/imageview.cpp; sourceTree = SOURCE_ROOT; };
+		A35377095EBC40FF97691C6A /* colorwheel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = colorwheel.cpp; path = ext/nanogui/src/colorwheel.cpp; sourceTree = SOURCE_ROOT; };
+		A495C6ABA91347C585CB699D /* button.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = button.h; path = ext/nanogui/include/nanogui/button.h; sourceTree = SOURCE_ROOT; };
+		A52A76D8144D4498B9E04C0C /* messagedialog.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = messagedialog.h; path = ext/nanogui/include/nanogui/messagedialog.h; sourceTree = SOURCE_ROOT; };
+		A7144FC6441148018612BDA0 /* checkbox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = checkbox.cpp; path = ext/nanogui/src/checkbox.cpp; sourceTree = SOURCE_ROOT; };
+		A848C27F147C4648A3752AAF /* libglfw.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libglfw.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C36E9DBE164F9F98E8E075 /* nanogui_resources.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nanogui_resources.cpp; path = xcode/ext/nanogui/nanogui_resources.cpp; sourceTree = SOURCE_ROOT; };
+		A94A21556ACC4A7EB825D7AA /* libglfw_objects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw_objects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB978307E02742BD9F3C1DD9 /* colorwheel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colorwheel.h; path = ext/nanogui/include/nanogui/colorwheel.h; sourceTree = SOURCE_ROOT; };
+		AC25FCA224734C9FB5C26FFA /* cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = ext/nanogui/ext/glfw/src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		AD8450C119164DE49C0EA673 /* popupbutton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = popupbutton.cpp; path = ext/nanogui/src/popupbutton.cpp; sourceTree = SOURCE_ROOT; };
+		AFF18E1B7AC543E5891D0FFE /* libCGL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCGL.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B149FA766710488AAE418369 /* camera.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = camera.cpp; path = src/camera.cpp; sourceTree = SOURCE_ROOT; };
+		B553BF3B6D34440F8E6AFC60 /* tabheader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = tabheader.h; path = ext/nanogui/include/nanogui/tabheader.h; sourceTree = SOURCE_ROOT; };
+		B61B9CC40B2A42DFA0641D38 /* nanovg.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = nanovg.c; path = ext/nanogui/ext/nanovg/src/nanovg.c; sourceTree = SOURCE_ROOT; };
+		B6880BC118F94A8C8A697DA4 /* clothsim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = clothsim; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EB4E9A0A1E4100A5B88696 /* glad.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = glad.c; path = ext/nanogui/ext/glad/src/glad.c; sourceTree = SOURCE_ROOT; };
+		BDC190AD02FC439BAB2CFEA9 /* layout.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = layout.cpp; path = ext/nanogui/src/layout.cpp; sourceTree = SOURCE_ROOT; };
+		BE368831C83346168FEEAF75 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = ext/nanogui/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BFE3A67BCFE54609915CAE6E /* tabwidget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tabwidget.cpp; path = ext/nanogui/src/tabwidget.cpp; sourceTree = SOURCE_ROOT; };
+		C0683F1A679E4F66A37C61A1 /* imagepanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = imagepanel.cpp; path = ext/nanogui/src/imagepanel.cpp; sourceTree = SOURCE_ROOT; };
+		C0E8D7FAE8E04136A83DB712 /* matrix3x3.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = matrix3x3.cpp; path = CGL/src/matrix3x3.cpp; sourceTree = SOURCE_ROOT; };
+		C1D13DFB11E041C888D25975 /* cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = ext/nanogui/ext/glfw/src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		C2136FC1485E43D381826D66 /* messagedialog.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = messagedialog.cpp; path = ext/nanogui/src/messagedialog.cpp; sourceTree = SOURCE_ROOT; };
+		C481D952081F458AA7AB488A /* libnanogui.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libnanogui.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B4415F40EE4EF79B88BA61 /* toolbutton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = toolbutton.h; path = ext/nanogui/include/nanogui/toolbutton.h; sourceTree = SOURCE_ROOT; };
+		CB77E84B8EE641D48BF7E48C /* label.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = label.h; path = ext/nanogui/include/nanogui/label.h; sourceTree = SOURCE_ROOT; };
+		D964E1295DE344F7813C0C9B /* layout.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = layout.h; path = ext/nanogui/include/nanogui/layout.h; sourceTree = SOURCE_ROOT; };
+		DAC550B56F3A4B81B244D163 /* file_utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = file_utils.cpp; path = src/misc/file_utils.cpp; sourceTree = SOURCE_ROOT; };
+		DC80B5C7627749B4AA8C5F00 /* formhelper.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = formhelper.h; path = ext/nanogui/include/nanogui/formhelper.h; sourceTree = SOURCE_ROOT; };
+		DCD5D2CFE7C34A4ABCBC3FD6 /* opengl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = opengl.h; path = ext/nanogui/include/nanogui/serializer/opengl.h; sourceTree = SOURCE_ROOT; };
+		DFF5192899EB4B19965FB97B /* textbox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = textbox.cpp; path = ext/nanogui/src/textbox.cpp; sourceTree = SOURCE_ROOT; };
+		E0500D7EC7D1446EB7AEE087 /* vector4D.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = vector4D.cpp; path = CGL/src/vector4D.cpp; sourceTree = SOURCE_ROOT; };
+		E0CF58E1CDD7459DACE4F5DE /* stackedwidget.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = stackedwidget.h; path = ext/nanogui/include/nanogui/stackedwidget.h; sourceTree = SOURCE_ROOT; };
+		E31D21D34EF8450993DB6AC2 /* nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = ext/nanogui/ext/glfw/src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		E44888B1F0EE47298BA4228B /* combobox.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = combobox.h; path = ext/nanogui/include/nanogui/combobox.h; sourceTree = SOURCE_ROOT; };
+		E55650965766457F91B0A8F2 /* context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = ext/nanogui/ext/glfw/src/context.c; sourceTree = SOURCE_ROOT; };
+		E5BA4AF3993A456E954D3204 /* input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = ext/nanogui/ext/glfw/src/input.c; sourceTree = SOURCE_ROOT; };
+		E6CCC966552E4A18BA2BB32B /* glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = ext/nanogui/ext/glfw/include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		EE2CBD2721C64328A159DE28 /* popup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = popup.h; path = ext/nanogui/include/nanogui/popup.h; sourceTree = SOURCE_ROOT; };
+		F14DE05A49FB45AA9CD79722 /* widget.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = widget.cpp; path = ext/nanogui/src/widget.cpp; sourceTree = SOURCE_ROOT; };
+		F87FCCA39F4D4F6B86B2199C /* clothMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clothMesh.cpp; path = src/clothMesh.cpp; sourceTree = SOURCE_ROOT; };
+		FD69DE5F00FE4F7CB42E18DE /* glcanvas.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glcanvas.h; path = ext/nanogui/include/nanogui/glcanvas.h; sourceTree = SOURCE_ROOT; };
+		FE3BFDB8CA934DA7B507E6C3 /* button.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = button.cpp; path = ext/nanogui/src/button.cpp; sourceTree = SOURCE_ROOT; };
+		FE576B05A5054EC9847D6C4C /* color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color.cpp; path = CGL/src/color.cpp; sourceTree = SOURCE_ROOT; };
+		FEBFE66F96694A8F9380AFC0 /* internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = ext/nanogui/ext/glfw/src/internal.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C2012D03D764DEE90C0CF96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49331444FE614AF1B59594FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BDCD70964041D680C07E16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A1889906FF46F9B582C4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50688923C844796BA2BEA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC6728D919104894A762D0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD23A836CA8420E81DA17C2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				76FC41E32A0082770051A28A /* particle.cpp */,
+				76FC41E22A0082770051A28A /* particle.h */,
+				76FC41E02A0082290051A28A /* liquid.cpp */,
+				76FC41DF2A0082290051A28A /* liquid.h */,
+				B149FA766710488AAE418369 /* camera.cpp */,
+				964A7E477DBD484E9DCC3C34 /* cloth.cpp */,
+				F87FCCA39F4D4F6B86B2199C /* clothMesh.cpp */,
+				3C9D1DD3015148F28466D572 /* clothSimulator.cpp */,
+				2F010B1C5A4A41949A1D4507 /* plane.cpp */,
+				79277D7B90364618A65869EF /* sphere.cpp */,
+				A05A22AFBB1D4278A69E8630 /* main.cpp */,
+				DAC550B56F3A4B81B244D163 /* file_utils.cpp */,
+				18A55111417D415595AB8FCD /* sphere_drawing.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		143C11ACD4D44F38AC1AEC80 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6CCC966552E4A18BA2BB32B /* glfw3.h */,
+				2574560898E24022A4EDA282 /* glfw3native.h */,
+				6A0191E6513E40ADA651A520 /* cocoa_joystick.h */,
+				1D309AE3C353444D8AD5722A /* cocoa_platform.h */,
+				FEBFE66F96694A8F9380AFC0 /* internal.h */,
+				6E20E83AA69E4BF98DC8F87A /* nsgl_context.h */,
+				40D9C84227994EE38E000C35 /* posix_tls.h */,
+				A0CB8BCB99BB44DC88E90079 /* glfw_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		26D7FFED45A9428BBD1DA04B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8EB4E9A0A1E4100A5B88696 /* glad.c */,
+				B61B9CC40B2A42DFA0641D38 /* nanovg.c */,
+				FE3BFDB8CA934DA7B507E6C3 /* button.cpp */,
+				A7144FC6441148018612BDA0 /* checkbox.cpp */,
+				777B684933DC4119991F2D57 /* colorpicker.cpp */,
+				A35377095EBC40FF97691C6A /* colorwheel.cpp */,
+				675C872BB24C42128F890DB6 /* combobox.cpp */,
+				2C55A8AD018440CDA4A20FFF /* common.cpp */,
+				6BE665DBAA1B4805B698A44A /* darwin.mm */,
+				0BDCFE97912D4949A0764623 /* glcanvas.cpp */,
+				229F33732B7745A192C755CA /* glutil.cpp */,
+				1C05B87AC4DB4FB99E744EE3 /* graph.cpp */,
+				C0683F1A679E4F66A37C61A1 /* imagepanel.cpp */,
+				A1A35513A278493C8F15F154 /* imageview.cpp */,
+				85A127D8584A4886A0D693B2 /* label.cpp */,
+				BDC190AD02FC439BAB2CFEA9 /* layout.cpp */,
+				C2136FC1485E43D381826D66 /* messagedialog.cpp */,
+				56B9780E116A4BCDA1BE418A /* popup.cpp */,
+				AD8450C119164DE49C0EA673 /* popupbutton.cpp */,
+				86C6D241F8FC463698579929 /* progressbar.cpp */,
+				4A1C089E197444DF84244DAE /* screen.cpp */,
+				61BD3EBA72014B50BBFD2E2A /* serializer.cpp */,
+				2966B19049FA4207A9E5C642 /* slider.cpp */,
+				4243B48F9AE14B8DB608CF84 /* stackedwidget.cpp */,
+				59D0EFB3EB2B4E598E98BAAD /* tabheader.cpp */,
+				BFE3A67BCFE54609915CAE6E /* tabwidget.cpp */,
+				DFF5192899EB4B19965FB97B /* textbox.cpp */,
+				71145FBB8E18495389AB4C9F /* theme.cpp */,
+				88B4979C60324B95929C14AF /* vscrollpanel.cpp */,
+				F14DE05A49FB45AA9CD79722 /* widget.cpp */,
+				96CC7897EEC847E3A680AD77 /* window.cpp */,
+				A8C36E9DBE164F9F98E8E075 /* nanogui_resources.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2D68F530B88042B993D49828 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				88BA07A4B0F14B22B0537106 /* khrplatform.h */,
+				220410667A884822983C447E /* glad.h */,
+				A495C6ABA91347C585CB699D /* button.h */,
+				32DCFFCEAFCF4D3BBC096277 /* checkbox.h */,
+				4CB8980EA22640BAAA2A222E /* colorpicker.h */,
+				AB978307E02742BD9F3C1DD9 /* colorwheel.h */,
+				E44888B1F0EE47298BA4228B /* combobox.h */,
+				6715C0B0FB4E4C14972032FE /* common.h */,
+				DC80B5C7627749B4AA8C5F00 /* formhelper.h */,
+				FD69DE5F00FE4F7CB42E18DE /* glcanvas.h */,
+				7911FA07145C40FEAEB3413E /* glutil.h */,
+				9D01CCFA0DA64F13946858A1 /* graph.h */,
+				738AF551A7D443BAAD8766CE /* imagepanel.h */,
+				6A4EA7DDD40341C5BCF1B4AF /* imageview.h */,
+				CB77E84B8EE641D48BF7E48C /* label.h */,
+				D964E1295DE344F7813C0C9B /* layout.h */,
+				A52A76D8144D4498B9E04C0C /* messagedialog.h */,
+				0A9F6283A52D490B81EF10C7 /* nanogui.h */,
+				0CE10724A5C642599BB8E147 /* opengl.h */,
+				EE2CBD2721C64328A159DE28 /* popup.h */,
+				5CA068555687432493A9C632 /* popupbutton.h */,
+				2D10DD94394A4B06B0CF5926 /* progressbar.h */,
+				4BF70A10291E4BBD94435DE3 /* screen.h */,
+				021B6855E48F499AA24F6133 /* core.h */,
+				DCD5D2CFE7C34A4ABCBC3FD6 /* opengl.h */,
+				4C410C4FDA3147B8B79EBE9E /* sparse.h */,
+				233037971FE94822A5ACC3EB /* slider.h */,
+				E0CF58E1CDD7459DACE4F5DE /* stackedwidget.h */,
+				B553BF3B6D34440F8E6AFC60 /* tabheader.h */,
+				72D0F7A6964B47C68E79EF51 /* tabwidget.h */,
+				76878FC0E54A45CE93B23587 /* textbox.h */,
+				03D4F9422652443999D5E0E1 /* theme.h */,
+				C7B4415F40EE4EF79B88BA61 /* toolbutton.h */,
+				4ABE687DF9C944A3A9B872D6 /* vscrollpanel.h */,
+				089954497ECB4AD7B652E12A /* widget.h */,
+				6B901011708D47ADBE5C3C3E /* window.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		31BAD85B121D4073926B8EFA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3C97C19464F5469687105AC4 = {
+			isa = PBXGroup;
+			children = (
+				6ACDB31D68134A7D94B4989E /* ALL_BUILD */,
+				BCAC05EB03954F5BAE8147AF /* nanogui-obj */,
+				8654927DA08843EB8E98D419 /* dependencies */,
+				BA066A5B6969410CB278EA7A /* CGL */,
+				5DD293E85F9F431284499C58 /* clothsim */,
+				566ADC4193EB4A7493AED68C /* Products */,
+				E90CE07C870A4CE59B07092B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		540BEAC6A3474298BF08D267 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				016FA2E0ED7145B1B04ECF91 /* base64.cpp */,
+				FE576B05A5054EC9847D6C4C /* color.cpp */,
+				1C4B63018621484D8555127D /* complex.cpp */,
+				42C6F587F5EA44DB94BC88EC /* lodepng.cpp */,
+				C0E8D7FAE8E04136A83DB712 /* matrix3x3.cpp */,
+				23D49F493C594E54BC380A60 /* matrix4x4.cpp */,
+				30EE1DE68AE84EBEBDBC9D33 /* quaternion.cpp */,
+				0BC6EEE3E00B45568D460C64 /* spectrum.cpp */,
+				1BA0E518C9D742C08F48855B /* tinyxml2.cpp */,
+				9FEBDCC881904D738E805BF1 /* vector2D.cpp */,
+				9F961C7CA0EF447B83778234 /* vector3D.cpp */,
+				E0500D7EC7D1446EB7AEE087 /* vector4D.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		566ADC4193EB4A7493AED68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF18E1B7AC543E5891D0FFE /* libCGL.a */,
+				B6880BC118F94A8C8A697DA4 /* clothsim */,
+				A848C27F147C4648A3752AAF /* libglfw.dylib */,
+				A94A21556ACC4A7EB825D7AA /* libglfw_objects.a */,
+				C481D952081F458AA7AB488A /* libnanogui.dylib */,
+				3E42DE1415AF4A3DB340965C /* libnanogui-obj.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DD293E85F9F431284499C58 /* clothsim */ = {
+			isa = PBXGroup;
+			children = (
+				0BD23A836CA8420E81DA17C2 /* Source Files */,
+				916558D883D043C7BEE5CBFD /* CMakeLists.txt */,
+			);
+			name = clothsim;
+			sourceTree = "<group>";
+		};
+		5EE14CFFE50B462BA51AD77A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E98AAF99842078B650FFE /* xcode_dummy.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6ACDB31D68134A7D94B4989E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				31BAD85B121D4073926B8EFA /* CMake Rules */,
+				33C4606CE6904DFBA6A50F96 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		8654927DA08843EB8E98D419 /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				B0FCDD699DBD4C22826699ED /* nanogui */,
+				9599D2D22B2E4BB6A602DD74 /* glfw_objects */,
+				C1C26A7314DA4C628305D379 /* glfw */,
+			);
+			name = dependencies;
+			sourceTree = "<group>";
+		};
+		9599D2D22B2E4BB6A602DD74 /* glfw_objects */ = {
+			isa = PBXGroup;
+			children = (
+				CBA3735DC62A4ACA941EEDCF /* Source Files */,
+				143C11ACD4D44F38AC1AEC80 /* Header Files */,
+				2E2AC79B3CFD4B23B9FF26AF /* CMakeLists.txt */,
+			);
+			name = glfw_objects;
+			sourceTree = "<group>";
+		};
+		B0FCDD699DBD4C22826699ED /* nanogui */ = {
+			isa = PBXGroup;
+			children = (
+				5EE14CFFE50B462BA51AD77A /* Source Files */,
+				BE368831C83346168FEEAF75 /* CMakeLists.txt */,
+			);
+			name = nanogui;
+			sourceTree = "<group>";
+		};
+		B41A08D760854984AAD4F355 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				3C2093EE309E4AC3AE5BFDF8 /* nanogui_resources.cpp.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BA066A5B6969410CB278EA7A /* CGL */ = {
+			isa = PBXGroup;
+			children = (
+				540BEAC6A3474298BF08D267 /* Source Files */,
+				5AE24C6ED67B4A559353F1D6 /* CMakeLists.txt */,
+			);
+			name = CGL;
+			sourceTree = "<group>";
+		};
+		BCAC05EB03954F5BAE8147AF /* nanogui-obj */ = {
+			isa = PBXGroup;
+			children = (
+				26D7FFED45A9428BBD1DA04B /* Source Files */,
+				2D68F530B88042B993D49828 /* Header Files */,
+				B41A08D760854984AAD4F355 /* CMake Rules */,
+				93696980EC5D4B6C94DDE0C6 /* CMakeLists.txt */,
+			);
+			name = "nanogui-obj";
+			sourceTree = "<group>";
+		};
+		C1C26A7314DA4C628305D379 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				36270805CD754F19BD002CF8 /* CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		CBA3735DC62A4ACA941EEDCF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F91132A1AC4506890E2807 /* cocoa_init.m */,
+				AC25FCA224734C9FB5C26FFA /* cocoa_joystick.m */,
+				3BF0CF54348D4F938D09F709 /* cocoa_monitor.m */,
+				7462DED8F2FC463A8915D104 /* cocoa_time.c */,
+				C1D13DFB11E041C888D25975 /* cocoa_window.m */,
+				E55650965766457F91B0A8F2 /* context.c */,
+				3D159D694DAC4D5A80A8D468 /* init.c */,
+				E5BA4AF3993A456E954D3204 /* input.c */,
+				75A0E188F91243F991DAB374 /* monitor.c */,
+				E31D21D34EF8450993DB6AC2 /* nsgl_context.m */,
+				7EC5ED98AA4A4047ADAA8956 /* posix_tls.c */,
+				210CF09654F14ED5A5D675F7 /* vulkan.c */,
+				4640435E4AD34EDBB2558367 /* window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E90CE07C870A4CE59B07092B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B5EFFC7EAEC41C0A3991FD0 /* Cocoa.framework */,
+				38CC2C1F6CDB4906B6BD8A3F /* OpenGL.framework */,
+				1FC6C1BE10344F3DBD89AE94 /* CoreVideo.framework */,
+				5EB626AC708247DA86DC7647 /* IOKit.framework */,
+				1BC9A958C1324F46B3FD245E /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		260F29601CBF4FF3863A45E3 /* nanogui-obj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30EF87444BB64748A62144F6 /* Build configuration list for PBXNativeTarget "nanogui-obj" */;
+			buildPhases = (
+				87B7D9891CD08FB08BFABBEC /* Generate ext/nanogui/nanogui_resources.cpp */,
+				3117F6B8F6CE425189691AAA /* Sources */,
+				B50688923C844796BA2BEA18 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nanogui-obj";
+			productName = "nanogui-obj";
+			productReference = 3E42DE1415AF4A3DB340965C /* libnanogui-obj.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40F3A7C29C4E4AC3A2C0E321 /* CGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A322B48998364FA8A7CB0EBC /* Build configuration list for PBXNativeTarget "CGL" */;
+			buildPhases = (
+				2340B307FA3941679E3222C9 /* Sources */,
+				56BDCD70964041D680C07E16 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C97D9F305804173B881FBB5 /* PBXTargetDependency */,
+			);
+			name = CGL;
+			productName = CGL;
+			productReference = AFF18E1B7AC543E5891D0FFE /* libCGL.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		910AE0D5DCC2424CA160D224 /* glfw_objects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64ED07E9774948D3A0D5F063 /* Build configuration list for PBXNativeTarget "glfw_objects" */;
+			buildPhases = (
+				6A27EED74A844821ACE08357 /* Sources */,
+				3C2012D03D764DEE90C0CF96 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glfw_objects;
+			productName = glfw_objects;
+			productReference = A94A21556ACC4A7EB825D7AA /* libglfw_objects.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA069B49EB6A4E529F4E6A0F /* nanogui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D9E0FB63CA3424B8B51DA31 /* Build configuration list for PBXNativeTarget "nanogui" */;
+			buildPhases = (
+				307E8A46EF924B31AE8B0350 /* Sources */,
+				DC6728D919104894A762D0EB /* Frameworks */,
+				BEDD60C58D3673898EC36F68 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B60F986823461D9D8F855F /* PBXTargetDependency */,
+				0D383A0F89B74C62866B987A /* PBXTargetDependency */,
+			);
+			name = nanogui;
+			productName = nanogui;
+			productReference = C481D952081F458AA7AB488A /* libnanogui.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		BB1F21A87FF54C8CAC95AA4E /* clothsim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AE8F78555784BF28A837512 /* Build configuration list for PBXNativeTarget "clothsim" */;
+			buildPhases = (
+				0E4F8B2C88864187BEE9E1AA /* Sources */,
+				49331444FE614AF1B59594FE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E6E0F304BE04CB08763DD69 /* PBXTargetDependency */,
+				69ACF6A263D744A59C46968B /* PBXTargetDependency */,
+			);
+			name = clothsim;
+			productName = clothsim;
+			productReference = B6880BC118F94A8C8A697DA4 /* clothsim */;
+			productType = "com.apple.product-type.tool";
+		};
+		E5C3909464B8402688A3A95B /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6ABA1B682F0419983CF6141 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				79A1889906FF46F9B582C4AB /* Frameworks */,
+				AD1D6540D49F6AB7FEF5FAF8 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78F0B035B2FD4D1180C14193 /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = A848C27F147C4648A3752AAF /* libglfw.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2C9766AA54A426B92EE5069 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = D18EBBD4DBA840E2A48E1FC8 /* Build configuration list for PBXProject "ClothSim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C97C19464F5469687105AC4;
+			projectDirPath = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels";
+			projectRoot = "";
+			targets = (
+				7D0B06C52A5840C0AD713D03 /* ALL_BUILD */,
+				40F3A7C29C4E4AC3A2C0E321 /* CGL */,
+				27AD29A5192B4338955B208F /* ZERO_CHECK */,
+				BB1F21A87FF54C8CAC95AA4E /* clothsim */,
+				E5C3909464B8402688A3A95B /* glfw */,
+				910AE0D5DCC2424CA160D224 /* glfw_objects */,
+				51FDE84F5A974370A9724FB2 /* install */,
+				BA069B49EB6A4E529F4E6A0F /* nanogui */,
+				260F29601CBF4FF3863A45E3 /* nanogui-obj */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38D4E6E9FEC8189F033EFBD8 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/ALL_BUILD",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		87B7D9891CD08FB08BFABBEC /* Generate ext/nanogui/nanogui_resources.cpp */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/Roboto-Bold.ttf",
+				"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/Roboto-Regular.ttf",
+				"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/entypo.ttf",
+			);
+			name = "Generate ext/nanogui/nanogui_resources.cpp";
+			outputPaths = (
+				"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/nanogui_resources.cpp",
+				"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/nanogui_resources.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/Roboto-Bold.ttf,/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/Roboto-Regular.ttf,/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/entypo.ttf -P /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/bin2c.cmake\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/Roboto-Bold.ttf,/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/Roboto-Regular.ttf,/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/entypo.ttf -P /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/bin2c.cmake\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/Roboto-Bold.ttf,/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/Roboto-Regular.ttf,/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/entypo.ttf -P /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/bin2c.cmake\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DOUTPUT_C=nanogui_resources.cpp -DOUTPUT_H=nanogui_resources.h -DINPUT_FILES=/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/Roboto-Bold.ttf,/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/Roboto-Regular.ttf,/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/entypo.ttf -P /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/resources/bin2c.cmake\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1D6540D49F6AB7FEF5FAF8 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_symlink_library /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/Debug/libglfw.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/Debug/libglfw.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/Debug/libglfw.dylib\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_symlink_library /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/Release/libglfw.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/Release/libglfw.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/Release/libglfw.dylib\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_symlink_library /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/MinSizeRel/libglfw.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/MinSizeRel/libglfw.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/MinSizeRel/libglfw.dylib\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_symlink_library /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/RelWithDebInfo/libglfw.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/RelWithDebInfo/libglfw.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/RelWithDebInfo/libglfw.dylib\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE54C4B90DADC3CB4DD06D1F /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/ZERO_CHECK",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  make -f /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  make -f /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  make -f /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode\n  make -f /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDD60C58D3673898EC36F68 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_symlink_library /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Debug/libnanogui.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Debug/libnanogui.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Debug/libnanogui.dylib\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_symlink_library /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Release/libnanogui.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Release/libnanogui.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Release/libnanogui.dylib\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_symlink_library /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/MinSizeRel/libnanogui.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/MinSizeRel/libnanogui.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/MinSizeRel/libnanogui.dylib\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui\n  /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E cmake_symlink_library /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/RelWithDebInfo/libnanogui.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/RelWithDebInfo/libnanogui.dylib /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/RelWithDebInfo/libnanogui.dylib\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E4F8B2C88864187BEE9E1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FC41E42A0082770051A28A /* particle.cpp in Sources */,
+				7BA0E42EE9194BC79D6D98D6 /* camera.cpp in Sources */,
+				672046007AA84BC190F71F57 /* cloth.cpp in Sources */,
+				EB01C763675D4C4780C8D025 /* clothMesh.cpp in Sources */,
+				978708D7D1BD4932B33F292B /* clothSimulator.cpp in Sources */,
+				510C9F0441374258A92612DE /* plane.cpp in Sources */,
+				76FC41E12A0082290051A28A /* liquid.cpp in Sources */,
+				8257198DE6B84C51A454F606 /* sphere.cpp in Sources */,
+				50E4FB2AE42D400182CCF3B7 /* main.cpp in Sources */,
+				1637D57916314C5692DCD88E /* file_utils.cpp in Sources */,
+				3BBD290C68E64CD29F899347 /* sphere_drawing.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2340B307FA3941679E3222C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF381389C8CC419180972581 /* base64.cpp in Sources */,
+				B666467AEAD046809FE505E7 /* color.cpp in Sources */,
+				A837BDAB53584BFEA27EAB92 /* complex.cpp in Sources */,
+				1271883CB0144B9285B6FD56 /* lodepng.cpp in Sources */,
+				E33E0ED6955F4B0099CF3FE0 /* matrix3x3.cpp in Sources */,
+				FFE3497F21034B1982919C67 /* matrix4x4.cpp in Sources */,
+				7859A21AFD32427F966E97BE /* quaternion.cpp in Sources */,
+				061FEEAD06694900809FCB4A /* spectrum.cpp in Sources */,
+				808B3E6664124065A9EE8F71 /* tinyxml2.cpp in Sources */,
+				DA603EAF40C2449EBFB7908F /* vector2D.cpp in Sources */,
+				5486A923B31249EE92D20A35 /* vector3D.cpp in Sources */,
+				D36AF2664DC04CBEAAE14B48 /* vector4D.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		307E8A46EF924B31AE8B0350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D70C3004506493E8E61A6F7 /* xcode_dummy.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3117F6B8F6CE425189691AAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA32C44A4E74FF2B975167D /* glad.c in Sources */,
+				B78FA7F5215043C5B9826756 /* nanovg.c in Sources */,
+				061B6D27FAEA4F1CB6177F89 /* button.cpp in Sources */,
+				656CFA997CD54CCCB926C112 /* checkbox.cpp in Sources */,
+				16CD73C911EB4519B1639FA8 /* colorpicker.cpp in Sources */,
+				44B3A9C969F34D7C9DDAFE65 /* colorwheel.cpp in Sources */,
+				8AE2A059DFE84137A764F3CD /* combobox.cpp in Sources */,
+				8E629FA581604E738CCA3EAF /* common.cpp in Sources */,
+				85982771FE5B4FDEB1AE92FC /* darwin.mm in Sources */,
+				27F7DD28CE33471D9F001424 /* glcanvas.cpp in Sources */,
+				8E46D495141945808AD4098F /* glutil.cpp in Sources */,
+				9FFE267DA9494F7BB945AEAC /* graph.cpp in Sources */,
+				07DFE39812524E7DA376DCBD /* imagepanel.cpp in Sources */,
+				299F8A147D3945F690341E67 /* imageview.cpp in Sources */,
+				702926B3E0DA4EA7BC6B6119 /* label.cpp in Sources */,
+				00D5E98843C74B5C90996C7B /* layout.cpp in Sources */,
+				9129EB19807E432380CFF345 /* messagedialog.cpp in Sources */,
+				2FDEC0107A3747978C9FC1B0 /* popup.cpp in Sources */,
+				E1A0B5C67E864316AFAD609C /* popupbutton.cpp in Sources */,
+				7B6E5F9AA68C49E9B9A66579 /* progressbar.cpp in Sources */,
+				74DFFB26BA9748C0B963CF98 /* screen.cpp in Sources */,
+				0E4C3367ACD641E7A3BA0FFB /* serializer.cpp in Sources */,
+				E07D190C2D494404B5A8E464 /* slider.cpp in Sources */,
+				FAC8A4DB8FA149BDAD8B0E92 /* stackedwidget.cpp in Sources */,
+				B151F7141775482693C4E7FA /* tabheader.cpp in Sources */,
+				F8AB12A2B9504AF0B01524EA /* tabwidget.cpp in Sources */,
+				EBCA9BFDB5C8409986DBFF4A /* textbox.cpp in Sources */,
+				CA7DF880B3EA4EB8914C8EB3 /* theme.cpp in Sources */,
+				A3C5E479DDBB401FB7BEEFC6 /* vscrollpanel.cpp in Sources */,
+				CFB5F0726BA44809A6B13F55 /* widget.cpp in Sources */,
+				C5EB3F1759F14A33A8AE1626 /* window.cpp in Sources */,
+				E08DDED51EA64310A3FCEA95 /* nanogui_resources.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A27EED74A844821ACE08357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F18A606E66241ADAC3ADB2A /* cocoa_init.m in Sources */,
+				A1D11CCE42594EF680BE97CE /* cocoa_joystick.m in Sources */,
+				F6F2C11FB3064EA791C50368 /* cocoa_monitor.m in Sources */,
+				D9E3B8827917492A829FAF8B /* cocoa_time.c in Sources */,
+				0B3AC18F54434F9398175222 /* cocoa_window.m in Sources */,
+				1618776CD577401AB91E40D9 /* context.c in Sources */,
+				80ECE803DD894D4CABF7E4B4 /* init.c in Sources */,
+				17763582CF7B43C9A5193BB0 /* input.c in Sources */,
+				ECCB9FC296B3423BA40B0019 /* monitor.c in Sources */,
+				B60C73C783A14AB887E56D6A /* nsgl_context.m in Sources */,
+				7F1B93D362594B5C94F1E7C6 /* posix_tls.c in Sources */,
+				6ED48C6BC0DE4A6A8BD79A08 /* vulkan.c in Sources */,
+				8D4E82AE77FC4F8ABD243775 /* window.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D383A0F89B74C62866B987A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910AE0D5DCC2424CA160D224 /* glfw_objects */;
+			targetProxy = 2BA924DBA9794349B253A011 /* PBXContainerItemProxy */;
+		};
+		342B1D437A924CF1B5D88C4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 260F29601CBF4FF3863A45E3 /* nanogui-obj */;
+			targetProxy = 5AF4DEA866CF4B9FB09723D0 /* PBXContainerItemProxy */;
+		};
+		4C97D9F305804173B881FBB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA069B49EB6A4E529F4E6A0F /* nanogui */;
+			targetProxy = 9C025F02039749C58FF856BC /* PBXContainerItemProxy */;
+		};
+		4E6E0F304BE04CB08763DD69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA069B49EB6A4E529F4E6A0F /* nanogui */;
+			targetProxy = 9D399E6DC2A84F53A9D4D9CA /* PBXContainerItemProxy */;
+		};
+		69ACF6A263D744A59C46968B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F3A7C29C4E4AC3A2C0E321 /* CGL */;
+			targetProxy = DF7627B378264D55B8358595 /* PBXContainerItemProxy */;
+		};
+		78F0B035B2FD4D1180C14193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910AE0D5DCC2424CA160D224 /* glfw_objects */;
+			targetProxy = 02CD7BA886764B2F871567A7 /* PBXContainerItemProxy */;
+		};
+		A686D442130E4C23BBA74E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D0B06C52A5840C0AD713D03 /* ALL_BUILD */;
+			targetProxy = D9ED5DAB3A064611A8331A96 /* PBXContainerItemProxy */;
+		};
+		B6C90457D4BF437EB9A69369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40F3A7C29C4E4AC3A2C0E321 /* CGL */;
+			targetProxy = A5C61B5CA53046ABA191E9AE /* PBXContainerItemProxy */;
+		};
+		C5ED95BEE7ED4721A8A511B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 910AE0D5DCC2424CA160D224 /* glfw_objects */;
+			targetProxy = A1BB1B8BFE5F4AB8BB35DAA3 /* PBXContainerItemProxy */;
+		};
+		D5B60F986823461D9D8F855F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 260F29601CBF4FF3863A45E3 /* nanogui-obj */;
+			targetProxy = B3F597EC7C2945AB9EA49045 /* PBXContainerItemProxy */;
+		};
+		DFC58169DA544511A2933255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27AD29A5192B4338955B208F /* ZERO_CHECK */;
+			targetProxy = D2BC7AF3A7874232B8006075 /* PBXContainerItemProxy */;
+		};
+		F4F2BD9C9C214DF7A803BFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA069B49EB6A4E529F4E6A0F /* nanogui */;
+			targetProxy = 29220579CF634C2E844E99FD /* PBXContainerItemProxy */;
+		};
+		FF85E042893446349DFD076B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1F21A87FF54C8CAC95AA4E /* clothsim */;
+			targetProxy = 96EAF52F75F743F4841C8684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A933DD0850540148A798F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-fPIC",
+					"-Wall",
+					"-Wno-deprecated-declarations",
+					"-fno-common",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw_objects;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		0DDA3269DA094D479D61C1C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		12FD8E4A4C1A4FB3A916C450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_BUILD,
+					NVG_BUILD,
+					GLAD_GLAPI_EXPORT,
+					GLAD_GLAPI_EXPORT_BUILD,
+					_GLFW_BUILD_DLL,
+					NVG_SHARED,
+					CORO_SJLJ,
+					NANOGUI_SHARED,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/coro",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-fPIC",
+					"-fobjc-arc",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-Wall",
+					"-Wextra",
+					"-std=c++14",
+					"-fPIC",
+					"-fobjc-arc",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nanogui-obj";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		156974E2E9F940279A8FB91C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_BUILD,
+					NVG_BUILD,
+					GLAD_GLAPI_EXPORT,
+					GLAD_GLAPI_EXPORT_BUILD,
+					_GLFW_BUILD_DLL,
+					NVG_SHARED,
+					CORO_SJLJ,
+					NANOGUI_SHARED,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/coro",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-Wall",
+					"-Wextra",
+					"-std=c++14",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nanogui-obj";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		179DE84DDAAF421389645407 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",
+					/opt/homebrew/include/freetype2,
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include/CGL",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-DNDEBUG",
+					"-Wno-constant-conversion",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		1BC4871E162F44C496F5707E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		2B9BB2A39F864EF095A4C38E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					nanogui_EXPORTS,
+					CORO_SJLJ,
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/coro",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-Wall",
+					"-Wextra",
+					"-std=c++14",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-lc++abi",
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nanovg.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glad.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/darwin.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nanogui_resources.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glutil.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/common.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/widget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/theme.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/layout.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/screen.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/label.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/popup.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/checkbox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/button.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/popupbutton.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/combobox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/progressbar.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/slider.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/messagedialog.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/textbox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/imagepanel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/imageview.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vscrollpanel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/colorwheel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/colorpicker.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/graph.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/stackedwidget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/tabheader.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/tabwidget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glcanvas.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/serializer.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/context.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/input.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vulkan.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_joystick.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_time.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/posix_tls.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nsgl_context.o",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		393F858EEAF9445EAA4F53C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+					"-Wno-deprecated-declarations",
+					"-fno-common",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw_objects;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		42782F94F96E4C7F9A252B1D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		4278D8CC6C2D48E58AB9107E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					glfw_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/context.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/input.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vulkan.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_joystick.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_time.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/posix_tls.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nsgl_context.o",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreFoundation,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		489B2BE0B67548ADB170D7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					nanogui_EXPORTS,
+					CORO_SJLJ,
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/coro",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-Wall",
+					"-Wextra",
+					"-std=c++14",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-lc++abi",
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nanovg.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glad.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/darwin.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nanogui_resources.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glutil.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/common.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/widget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/theme.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/layout.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/screen.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/label.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/popup.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/checkbox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/button.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/popupbutton.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/combobox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/progressbar.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/slider.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/messagedialog.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/textbox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/imagepanel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/imageview.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vscrollpanel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/colorwheel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/colorpicker.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/graph.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/stackedwidget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/tabheader.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/tabwidget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glcanvas.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/serializer.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/context.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/input.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vulkan.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_joystick.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_time.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/posix_tls.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nsgl_context.o",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		4B28EAA9846C4EBD80947030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",
+					/opt/homebrew/include/freetype2,
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Debug",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-Wno-deprecated-declarations",
+					"-Wno-c++11-extensions",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/Debug/libCGL.a",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Debug/libnanogui.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					/opt/homebrew/lib/libfreetype.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = clothsim;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/clothsim.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		4BA3CEEC224C46BD9960AB8B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		4E1FC3441AB54C7789ADA3FC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",
+					/opt/homebrew/include/freetype2,
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/RelWithDebInfo",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-DNDEBUG",
+					"-Wno-deprecated-declarations",
+					"-Wno-c++11-extensions",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/RelWithDebInfo/libCGL.a",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/RelWithDebInfo/libnanogui.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					/opt/homebrew/lib/libfreetype.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = clothsim;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/clothsim.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		5166D8135BD14385AC9B2C9B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",
+					/opt/homebrew/include/freetype2,
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/MinSizeRel",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-DNDEBUG",
+					"-Wno-deprecated-declarations",
+					"-Wno-c++11-extensions",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/MinSizeRel/libCGL.a",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/MinSizeRel/libnanogui.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					/opt/homebrew/lib/libfreetype.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = clothsim;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/clothsim.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		60547E086C284EE886FA14B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build";
+			};
+			name = Release;
+		};
+		6AAC9BC3488645B19118D4FC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		71C33BED1C4D417388C97DBA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_BUILD,
+					NVG_BUILD,
+					GLAD_GLAPI_EXPORT,
+					GLAD_GLAPI_EXPORT_BUILD,
+					_GLFW_BUILD_DLL,
+					NVG_SHARED,
+					CORO_SJLJ,
+					NANOGUI_SHARED,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/coro",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-Wall",
+					"-Wextra",
+					"-std=c++14",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nanogui-obj";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		72E872E4C415484A95129FCA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		77BE41953CF04EF4B6C2098A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_BUILD,
+					NVG_BUILD,
+					GLAD_GLAPI_EXPORT,
+					GLAD_GLAPI_EXPORT_BUILD,
+					_GLFW_BUILD_DLL,
+					NVG_SHARED,
+					CORO_SJLJ,
+					NANOGUI_SHARED,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/coro",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-Wall",
+					"-Wextra",
+					"-std=c++14",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nanogui-obj";
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		809A9E7C648A4CAE9E93C87E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",
+					/opt/homebrew/include/freetype2,
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include/CGL",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-DNDEBUG",
+					"-Wno-constant-conversion",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		83EBFAE0F5C64D50884F6F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					glfw_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-fPIC",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/context.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/input.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vulkan.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_joystick.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_time.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/posix_tls.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nsgl_context.o",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreFoundation,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		87354DE3562947639446D6F5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+					"-Wno-deprecated-declarations",
+					"-fno-common",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw_objects;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		8E0C0C216117412B9F7EC254 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					glfw_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/context.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/input.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vulkan.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_joystick.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_time.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/posix_tls.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nsgl_context.o",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreFoundation,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		91C327C0860B4055810F6ECC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		922E564372A44A47B980D5C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					nanogui_EXPORTS,
+					CORO_SJLJ,
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/coro",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-fPIC",
+					"-fobjc-arc",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-Wall",
+					"-Wextra",
+					"-std=c++14",
+					"-fPIC",
+					"-fobjc-arc",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-lc++abi",
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nanovg.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glad.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/darwin.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nanogui_resources.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glutil.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/common.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/widget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/theme.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/layout.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/screen.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/label.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/popup.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/checkbox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/button.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/popupbutton.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/combobox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/progressbar.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/slider.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/messagedialog.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/textbox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/imagepanel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/imageview.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vscrollpanel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/colorwheel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/colorpicker.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/graph.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/stackedwidget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/tabheader.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/tabwidget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glcanvas.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/serializer.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/context.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/input.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vulkan.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_joystick.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_time.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/posix_tls.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nsgl_context.o",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		9A34BEB421FC4B12967FF3A3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					nanogui_EXPORTS,
+					CORO_SJLJ,
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/coro",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-Wall",
+					"-Wextra",
+					"-std=c++14",
+					"-DNDEBUG",
+					"-fPIC",
+					"-fobjc-arc",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-lc++abi",
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nanovg.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glad.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/darwin.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nanogui_resources.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glutil.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/common.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/widget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/theme.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/layout.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/screen.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/label.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/popup.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/checkbox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/button.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/popupbutton.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/combobox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/progressbar.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/slider.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/messagedialog.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/textbox.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/imagepanel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/imageview.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vscrollpanel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/colorwheel.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/colorpicker.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/graph.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/stackedwidget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/tabheader.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/tabwidget.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/glcanvas.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui-obj.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/serializer.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/context.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/input.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vulkan.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_joystick.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_time.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/posix_tls.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nsgl_context.o",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = nanogui;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/nanogui.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		A30965CD36A84C8FB66E88D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		A4762E2DD99E4B24BC60B1E9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		A6D1670353034E2DBD5A8358 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		A92040BEC49646D9AE48CD5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					glfw_EXPORTS,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = (
+					"-dynamiclib",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/context.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/input.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/vulkan.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_init.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_joystick.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_monitor.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_window.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/cocoa_time.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/posix_tls.o",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/$(OBJECT_FILE_DIR_normal:base)/arm64/nsgl_context.o",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreFoundation,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		B066552BE6CB47CD995A2AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",
+					/opt/homebrew/include/freetype2,
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include/CGL",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-DNDEBUG",
+					"-Wno-constant-conversion",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		B6C2ADF516844CEC93AFA4F3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					_GLFW_USE_CONFIG_H,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/ext_build/glfw/src",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-Wno-deprecated-declarations",
+					"-DNDEBUG",
+					"-fPIC",
+					"-Wall",
+					"-Wno-deprecated-declarations",
+					"-fno-common",
+					"$(inherited)",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw_objects;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/glfw_objects.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		BFBE3EDE96B7472E8A0D9D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build";
+			};
+			name = Debug;
+		};
+		C9C8614A15BA4556BB93506E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",
+					/opt/homebrew/include/freetype2,
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include/CGL",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-Wno-constant-conversion",
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = CGL;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/CGL.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		CD119603308445A2A83EC44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					NANOGUI_SHARED,
+					NVG_SHARED,
+					GLAD_GLAPI_EXPORT,
+					NANOGUI_GLAD,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/CGL/include",
+					/opt/homebrew/include/freetype2,
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glad/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/glfw/include",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/nanovg/src",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/ext/nanogui/ext/eigen",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Release",
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-std=c++11",
+					"-m64",
+					"-funroll-loops",
+					"-Wno-narrowing",
+					"-Wno-deprecated-register",
+					"-DNDEBUG",
+					"-Wno-deprecated-declarations",
+					"-Wno-c++11-extensions",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CGL/src/Release/libCGL.a",
+					"/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/ext/nanogui/Release/libnanogui.dylib",
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					Cocoa,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					OpenGL,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					CoreVideo,
+					"-Xlinker",
+					"-framework",
+					"-Xlinker",
+					IOKit,
+					/opt/homebrew/lib/libfreetype.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = clothsim;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build/clothsim.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		CFD76E60828144018DCD3F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		ECEA88076F2B4B30B1B1DDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		F4F99E6A6B24459BB37382EB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk;
+				SYMROOT = "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		FC77B1FB9F4E433BA2EC1802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AE8F78555784BF28A837512 /* Build configuration list for PBXNativeTarget "clothsim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B28EAA9846C4EBD80947030 /* Debug */,
+				CD119603308445A2A83EC44A /* Release */,
+				5166D8135BD14385AC9B2C9B /* MinSizeRel */,
+				4E1FC3441AB54C7789ADA3FC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30EF87444BB64748A62144F6 /* Build configuration list for PBXNativeTarget "nanogui-obj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12FD8E4A4C1A4FB3A916C450 /* Debug */,
+				156974E2E9F940279A8FB91C /* Release */,
+				71C33BED1C4D417388C97DBA /* MinSizeRel */,
+				77BE41953CF04EF4B6C2098A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		315F2E5F47624FA18046B88E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DDA3269DA094D479D61C1C1 /* Debug */,
+				FC77B1FB9F4E433BA2EC1802 /* Release */,
+				1BC4871E162F44C496F5707E /* MinSizeRel */,
+				6AAC9BC3488645B19118D4FC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		64ED07E9774948D3A0D5F063 /* Build configuration list for PBXNativeTarget "glfw_objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A933DD0850540148A798F1C /* Debug */,
+				393F858EEAF9445EAA4F53C8 /* Release */,
+				87354DE3562947639446D6F5 /* MinSizeRel */,
+				B6C2ADF516844CEC93AFA4F3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72249A4FBFA441A7BAC919AB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECEA88076F2B4B30B1B1DDC0 /* Debug */,
+				A30965CD36A84C8FB66E88D1 /* Release */,
+				72E872E4C415484A95129FCA /* MinSizeRel */,
+				A4762E2DD99E4B24BC60B1E9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8D9E0FB63CA3424B8B51DA31 /* Build configuration list for PBXNativeTarget "nanogui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922E564372A44A47B980D5C7 /* Debug */,
+				489B2BE0B67548ADB170D7D6 /* Release */,
+				2B9BB2A39F864EF095A4C38E /* MinSizeRel */,
+				9A34BEB421FC4B12967FF3A3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A322B48998364FA8A7CB0EBC /* Build configuration list for PBXNativeTarget "CGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C8614A15BA4556BB93506E /* Debug */,
+				B066552BE6CB47CD995A2AD1 /* Release */,
+				179DE84DDAAF421389645407 /* MinSizeRel */,
+				809A9E7C648A4CAE9E93C87E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6ABA1B682F0419983CF6141 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83EBFAE0F5C64D50884F6F90 /* Debug */,
+				A92040BEC49646D9AE48CD5B /* Release */,
+				8E0C0C216117412B9F7EC254 /* MinSizeRel */,
+				4278D8CC6C2D48E58AB9107E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D18EBBD4DBA840E2A48E1FC8 /* Build configuration list for PBXProject "ClothSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFBE3EDE96B7472E8A0D9D35 /* Debug */,
+				60547E086C284EE886FA14B8 /* Release */,
+				F4F99E6A6B24459BB37382EB /* MinSizeRel */,
+				42782F94F96E4C7F9A252B1D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D904457912D3470787FC8CB0 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD76E60828144018DCD3F3B /* Debug */,
+				A6D1670353034E2DBD5A8358 /* Release */,
+				4BA3CEEC224C46BD9960AB8B /* MinSizeRel */,
+				91C327C0860B4055810F6ECC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2C9766AA54A426B92EE5069 /* Project object */;
+}

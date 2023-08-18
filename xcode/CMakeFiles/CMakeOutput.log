@@ -1,0 +1,973 @@
+The system is: Darwin - 22.3.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 1fa3dea6f099dd05e2e09afbe67d135c
+Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/./XCBuildData/1fa3dea6f099dd05e2e09afbe67d135c-desc.xcbuild
+
+warning: Building targets in manual order is deprecated - check "Parallelize build for command-line builds" in the project editor, or set DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING in any of the targets in the current build to suppress this warning
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/EagerLinkingTBDs
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/EagerLinkingTBDs
+
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdC' from project 'CompilerIdC')
+note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdC' from project 'CompilerIdC')
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/Entitlements.plist
+
+ProcessProductPackaging "" /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    
+    Entitlements:
+    
+    {
+    "com.apple.application-identifier" = "";
+    "com.apple.security.get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent
+
+ProcessProductPackagingDER /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    /usr/bin/derq query -f xml -i /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent.der --raw
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList
+
+CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -iquote /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap -iquote /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.dia -c /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CMakeCCompilerId.o
+
+Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC normal (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/arm64/CompilerIdC_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    /bin/sh -c /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+CodeSign /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    
+    Signing Identity:     "-"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.xcent --timestamp\=none --generate-entitlement-der /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC
+
+RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC (in target 'CompilerIdC' from project 'CompilerIdC')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC
+    builtin-RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdC/CompilerIdC"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: c5b0aaf9b9870b3c31f052ac3fae8791
+Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/./XCBuildData/c5b0aaf9b9870b3c31f052ac3fae8791-desc.xcbuild
+
+warning: Building targets in manual order is deprecated - check "Parallelize build for command-line builds" in the project editor, or set DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING in any of the targets in the current build to suppress this warning
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/EagerLinkingTBDs
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/EagerLinkingTBDs
+
+warning: Traditional headermap style is no longer supported; please migrate to using separate headermaps and set 'ALWAYS_SEARCH_USER_PATHS' to NO. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+note: Run script build phase 'Run Script' will be run during every build because the option to run the script phase "Based on dependency analysis" is unchecked. (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/Entitlements.plist
+
+ProcessProductPackaging "" /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    
+    Entitlements:
+    
+    {
+    "com.apple.application-identifier" = "";
+    "com.apple.security.get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent
+
+ProcessProductPackagingDER /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    /usr/bin/derq query -f xml -i /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent.der --raw
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+
+CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility\=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -iquote /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap -iquote /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.dia -c /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CMakeCXXCompilerId.o
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList
+
+Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX normal (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_lto.o -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/arm64/CompilerIdCXX_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+PhaseScriptExecution Run\ Script /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    /bin/sh -c /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+ARCHS=arm64
+
+CodeSign /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    
+    Signing Identity:     "-"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.xcent --timestamp\=none --generate-entitlement-der /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX
+
+RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX (in target 'CompilerIdCXX' from project 'CompilerIdCXX')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX
+    builtin-RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX
+
+** BUILD SUCCEEDED **
+
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/3.25.2/CompilerIdCXX/CompilerIdCXX"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3313d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3313d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 338af53c10c6edcd26f589420a88e3ee
+Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/XCBuildData/338af53c10c6edcd26f589420a88e3ee-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs
+
+CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_3313d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-macos13.1
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -D "CMAKE_INTDIR=\"Debug\"" -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/include -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources-normal/arm64 -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources/arm64 -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o -x c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0
+ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/include"
+ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources-normal/arm64"
+ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources/arm64"
+ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList (in target 'cmTC_3313d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList
+
+Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d normal (in target 'cmTC_3313d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-macos13.1
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList -object_path_lto /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 20:07:05 Nov  7 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs
+	/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib
+Framework search paths:
+	/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs
+	/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/
+
+RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d (in target 'cmTC_3313d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd
+    builtin-RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d
+
+** BUILD SUCCEEDED **
+
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3313d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3313d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+  ignore line: []
+  ignore line: [User defaults from command line:]
+  ignore line: [    HideShellScriptEnvironment = YES]
+  ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+  ignore line: []
+  ignore line: [Computing target dependency graph and provisioning inputs]
+  ignore line: []
+  ignore line: [Create build description]
+  ignore line: [Build description signature: 338af53c10c6edcd26f589420a88e3ee]
+  ignore line: [Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/XCBuildData/338af53c10c6edcd26f589420a88e3ee-desc.xcbuild]
+  ignore line: []
+  ignore line: [note: Building targets in dependency order]
+  ignore line: [CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs]
+  ignore line: []
+  ignore line: [CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCCompilerABI.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_3313d' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-macos13.1]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -D "CMAKE_INTDIR=\"Debug\"" -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/include -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources-normal/arm64 -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources/arm64 -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -Wdeprecated-declarations -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdebug-compilation-dir=/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.dia -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/CMakeCCompilerABI.o -x c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0]
+  ignore line: [ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/include"]
+  ignore line: [ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources-normal/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/DerivedSources"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug (framework directory)]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList (in target 'cmTC_3313d' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd]
+  ignore line: [    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList]
+  ignore line: []
+  ignore line: [Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d normal (in target 'cmTC_3313d' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-macos13.1]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList -object_path_lto /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList -object_path_lto /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList -object_path_lto /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.1.0] ==> ignore
+    arg [13.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug/cmTC_3313d] ==> ignore
+    arg [-L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug] ==> dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug]
+    arg [-filelist] ==> ignore
+    arg [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_lto.o] ==> obj [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_lto.o]
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_dependency_info.dat] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [-F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug] ==> ignore
+  Library search paths: [;/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs;/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  Framework search paths: [;/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs;/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug] ==> [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug], skipping non-system directory
+  collapse library dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs] ==> [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs], skipping non-system directory
+  collapse library dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug] ==> [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  collapse framework dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs] ==> [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/EagerLinkingTBDs], skipping non-system directory
+  collapse framework dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug] ==> [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit objs: [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-7XvVfd/build/cmTC_3313d.build/Debug/Objects-normal/arm64/cmTC_3313d_lto.o]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_e245d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_e245d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: f71d19b0f8e3a88e758fa1af90d4a21a
+Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/XCBuildData/f71d19b0f8e3a88e758fa1af90d4a21a-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs
+
+CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_e245d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -v -Wl,-v -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-macos13.1
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -D "CMAKE_INTDIR=\"Debug\"" -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/include -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources-normal/arm64 -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources/arm64 -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0
+ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/include"
+ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources-normal/arm64"
+ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources/arm64"
+ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList (in target 'cmTC_e245d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList
+
+Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d normal (in target 'cmTC_e245d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_lto.o -Xlinker -no_deduplicate -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d
+Apple clang version 14.0.0 (clang-1400.0.29.202)
+Target: arm64-apple-macos13.1
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList -object_path_lto /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug
+@(#)PROGRAM:ld  PROJECT:ld64-820.1
+BUILD 20:07:05 Nov  7 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs
+	/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib
+Framework search paths:
+	/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs
+	/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/
+
+RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d (in target 'cmTC_e245d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI
+    builtin-RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d
+
+** BUILD SUCCEEDED **
+
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_e245d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_e245d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment]
+  ignore line: []
+  ignore line: [User defaults from command line:]
+  ignore line: [    HideShellScriptEnvironment = YES]
+  ignore line: [    IDEPackageSupportUseBuiltinSCM = YES]
+  ignore line: []
+  ignore line: [Computing target dependency graph and provisioning inputs]
+  ignore line: []
+  ignore line: [Create build description]
+  ignore line: [Build description signature: f71d19b0f8e3a88e758fa1af90d4a21a]
+  ignore line: [Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/XCBuildData/f71d19b0f8e3a88e758fa1af90d4a21a-desc.xcbuild]
+  ignore line: []
+  ignore line: [note: Building targets in dependency order]
+  ignore line: [CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug]
+  ignore line: []
+  ignore line: [CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/CMAKE_TRY_COMPILE.xcodeproj]
+  ignore line: [    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs]
+  ignore line: []
+  ignore line: [CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_e245d' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -v -Wl -v -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -c /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-macos13.1]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx13.1.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -fno-rounding-math -funwind-tables=2 -fobjc-msgsend-selector-stubs -target-sdk-version=13.1 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 820.1 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0 -dependency-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.d -skip-unused-modulemap-deps -MT dependencies -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -D "CMAKE_INTDIR=\"Debug\"" -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/include -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources-normal/arm64 -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources/arm64 -I /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -stdlib=libc++ -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -O0 -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -Wno-cast-function-type -Wno-bitwise-instead-of-logical -fdeprecated-macro -fdebug-compilation-dir=/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI -ferror-limit 19 -fmacro-backtrace-limit 0 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fpascal-strings -fmax-type-align=16 -fcommon -fdiagnostics-show-note-include-stack -serialize-diagnostic-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.dia -clang-vendor-feature=+messageToSelfInClassMethodIdReturnType -clang-vendor-feature=+disableInferNewAvailabilityFromInit -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/CMakeCXXCompilerABI.o -x c++ /opt/homebrew/Cellar/cmake/3.25.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 14.0.0 (clang-1400.0.29.202) default target arm64-apple-darwin22.3.0]
+  ignore line: [ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/include"]
+  ignore line: [ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources-normal/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources/arm64"]
+  ignore line: [ignoring nonexistent directory "/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/DerivedSources"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug (framework directory)]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: []
+  ignore line: [WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList (in target 'cmTC_e245d' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI]
+  ignore line: [    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList]
+  ignore line: []
+  ignore line: [Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d normal (in target 'cmTC_e245d' from project 'CMAKE_TRY_COMPILE')]
+  ignore line: [    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_lto.o -Xlinker -no_deduplicate -v -Wl -v -Wl -search_paths_first -Wl -headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d]
+  ignore line: [Apple clang version 14.0.0 (clang-1400.0.29.202)]
+  ignore line: [Target: arm64-apple-macos13.1]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList -object_path_lto /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList -object_path_lto /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.1.0 13.1 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList -object_path_lto /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_lto.o -no_deduplicate -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [13.1.0] ==> ignore
+    arg [13.1] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug/cmTC_e245d] ==> ignore
+    arg [-L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug] ==> dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug]
+    arg [-filelist] ==> ignore
+    arg [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d.LinkFileList] ==> ignore
+    arg [-object_path_lto] ==> ignore
+    arg [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_lto.o] ==> obj [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_lto.o]
+    arg [-no_deduplicate] ==> ignore
+    arg [-v] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_dependency_info.dat] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [-F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug] ==> ignore
+  Library search paths: [;/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs;/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  Framework search paths: [;/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs;/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug] ==> [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug], skipping non-system directory
+  collapse library dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs] ==> [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs], skipping non-system directory
+  collapse library dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug] ==> [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug], skipping non-system directory
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  collapse framework dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs] ==> [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/EagerLinkingTBDs], skipping non-system directory
+  collapse framework dir [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug] ==> [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/Debug], skipping non-system directory
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: [/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-SSU7cI/build/cmTC_e245d.build/Debug/Objects-normal/arm64/cmTC_e245d_lto.o]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/System/Library/Frameworks]
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_10a23 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_10a23 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 2fd4fb365b8e450ac9e1766e3901e4d2
+Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/XCBuildData/2fd4fb365b8e450ac9e1766e3901e4d2-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/Debug
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/Debug
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/EagerLinkingTBDs
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/Objects-normal/arm64/cmTC_10a23.LinkFileList (in target 'cmTC_10a23' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/Objects-normal/arm64/cmTC_10a23.LinkFileList
+
+CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/Objects-normal/arm64/src.o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/src.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_10a23' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DCMAKE_HAVE_LIBC_PTHREAD -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/Debug/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/Debug -Wno-deprecated-declarations -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/Objects-normal/arm64/src.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/Objects-normal/arm64/src.dia -c /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/src.c -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/Objects-normal/arm64/src.o
+
+Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/Debug/cmTC_10a23 normal (in target 'cmTC_10a23' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/Debug -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/Objects-normal/arm64/cmTC_10a23.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/Objects-normal/arm64/cmTC_10a23_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/build/cmTC_10a23.build/Debug/Objects-normal/arm64/cmTC_10a23_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/Debug/cmTC_10a23
+
+RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/Debug/cmTC_10a23 (in target 'cmTC_10a23' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN
+    builtin-RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-z0IDbN/Debug/cmTC_10a23
+
+** BUILD SUCCEEDED **
+
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test HAS_CPP14_FLAG succeeded with the following output:
+Change Dir: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_8a685 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_8a685 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 8cfad2084ce4f3ea94d367b3c3096b73
+Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/XCBuildData/8cfad2084ce4f3ea94d367b3c3096b73-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/Debug
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/Debug
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/EagerLinkingTBDs
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/EagerLinkingTBDs
+
+CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/Objects-normal/arm64/src.o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_8a685' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAS_CPP14_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/Debug/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/Debug -std\=c++11 -m64 -funroll-loops -Wno-narrowing -Wno-deprecated-register -Wall -Wextra -std\=c++14 -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/Objects-normal/arm64/src.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/Objects-normal/arm64/src.dia -c /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/src.cxx -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/Objects-normal/arm64/src.o
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/Objects-normal/arm64/cmTC_8a685.LinkFileList (in target 'cmTC_8a685' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/Objects-normal/arm64/cmTC_8a685.LinkFileList
+
+Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/Debug/cmTC_8a685 normal (in target 'cmTC_8a685' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/Debug -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/Objects-normal/arm64/cmTC_8a685.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/Objects-normal/arm64/cmTC_8a685_lto.o -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/build/cmTC_8a685.build/Debug/Objects-normal/arm64/cmTC_8a685_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/Debug/cmTC_8a685
+
+RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/Debug/cmTC_8a685 (in target 'cmTC_8a685' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3
+    builtin-RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ZoGZy3/Debug/cmTC_8a685
+
+** BUILD SUCCEEDED **
+
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAS_CPP11_FLAG succeeded with the following output:
+Change Dir: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ca870 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_ca870 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 13efbc1d783a2a10bbb4c8ab24df4b82
+Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/XCBuildData/13efbc1d783a2a10bbb4c8ab24df4b82-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/Debug
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/Debug
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/EagerLinkingTBDs
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/EagerLinkingTBDs
+
+CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/Objects-normal/arm64/src.o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_ca870' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAS_CPP11_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/Debug/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/Debug -std\=c++11 -m64 -funroll-loops -Wno-narrowing -Wno-deprecated-register -Wall -Wextra -std\=c++11 -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/Objects-normal/arm64/src.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/Objects-normal/arm64/src.dia -c /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/src.cxx -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/Objects-normal/arm64/src.o
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/Objects-normal/arm64/cmTC_ca870.LinkFileList (in target 'cmTC_ca870' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/Objects-normal/arm64/cmTC_ca870.LinkFileList
+
+Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/Debug/cmTC_ca870 normal (in target 'cmTC_ca870' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/Debug -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/Objects-normal/arm64/cmTC_ca870.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/Objects-normal/arm64/cmTC_ca870_lto.o -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/build/cmTC_ca870.build/Debug/Objects-normal/arm64/cmTC_ca870_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/Debug/cmTC_ca870
+
+RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/Debug/cmTC_ca870 (in target 'cmTC_ca870' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl
+    builtin-RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-ng5jSl/Debug/cmTC_ca870
+
+** BUILD SUCCEEDED **
+
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAS_LIBCPP succeeded with the following compile output:
+Change Dir: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_c7bbe -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_c7bbe -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: a50d2d74727424f21946dc154f78042a
+Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/XCBuildData/a50d2d74727424f21946dc154f78042a-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/Debug
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/Debug
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/EagerLinkingTBDs
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/EagerLinkingTBDs
+
+CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/Objects-normal/arm64/src.o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_c7bbe' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -stdlib\=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAS_LIBCPP -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/Debug/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/Debug -std\=c++11 -m64 -funroll-loops -Wno-narrowing -Wno-deprecated-register -Wall -Wextra -std\=c++14 -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/Objects-normal/arm64/src.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/Objects-normal/arm64/src.dia -c /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/src.cxx -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/Objects-normal/arm64/src.o
+/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/src.cxx:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+int main(int argc, char **argv) { return 0; }
+             ^
+/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/src.cxx:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+int main(int argc, char **argv) { return 0; }
+                          ^
+2 warnings generated.
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/Objects-normal/arm64/cmTC_c7bbe.LinkFileList (in target 'cmTC_c7bbe' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/Objects-normal/arm64/cmTC_c7bbe.LinkFileList
+
+Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/Debug/cmTC_c7bbe normal (in target 'cmTC_c7bbe' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/Debug -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/Objects-normal/arm64/cmTC_c7bbe.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/Objects-normal/arm64/cmTC_c7bbe_lto.o -stdlib\=libc++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names -stdlib\=libc++ -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/build/cmTC_c7bbe.build/Debug/Objects-normal/arm64/cmTC_c7bbe_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/Debug/cmTC_c7bbe
+
+RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/Debug/cmTC_c7bbe (in target 'cmTC_c7bbe' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb
+    builtin-RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-L6mZgb/Debug/cmTC_c7bbe
+
+** BUILD SUCCEEDED **
+
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main(int argc, char **argv) { return 0; }
+
+Performing C++ SOURCE FILE Test HAS_LIBCPPABI succeeded with the following compile output:
+Change Dir: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_36055 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_36055 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 271552d33fc4c60a3bfe8496e4257d27
+Build description path: /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/XCBuildData/271552d33fc4c60a3bfe8496e4257d27-desc.xcbuild
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/Debug
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/Debug
+
+CreateBuildDirectory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/EagerLinkingTBDs
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/EagerLinkingTBDs
+
+WriteAuxiliaryFile /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/Objects-normal/arm64/cmTC_36055.LinkFileList (in target 'cmTC_36055' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF
+    write-file /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/Objects-normal/arm64/cmTC_36055.LinkFileList
+
+CompileC /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/Objects-normal/arm64/src.o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_36055' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -target arm64-apple-macos13.1 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -stdlib\=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAS_LIBCPPABI -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/Debug/include -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/DerivedSources-normal/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/DerivedSources/arm64 -I/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/DerivedSources -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/Debug -std\=c++11 -m64 -funroll-loops -Wno-narrowing -Wno-deprecated-register -Wall -Wextra -std\=c++14 -MMD -MT dependencies -MF /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/Objects-normal/arm64/src.d --serialize-diagnostics /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/Objects-normal/arm64/src.dia -c /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/src.cxx -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/Objects-normal/arm64/src.o
+/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/src.cxx:1:14: warning: unused parameter 'argc' [-Wunused-parameter]
+int main(int argc, char **argv) { return 0; }
+             ^
+/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/src.cxx:1:27: warning: unused parameter 'argv' [-Wunused-parameter]
+int main(int argc, char **argv) { return 0; }
+                          ^
+2 warnings generated.
+
+Ld /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/Debug/cmTC_36055 normal (in target 'cmTC_36055' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64-apple-macos13.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/EagerLinkingTBDs -L/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/Debug -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/EagerLinkingTBDs -F/Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/Debug -filelist /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/Objects-normal/arm64/cmTC_36055.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/Objects-normal/arm64/cmTC_36055_lto.o -stdlib\=libc++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names -stdlib\=libc++ -lc++abi -Xlinker -dependency_info -Xlinker /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/build/cmTC_36055.build/Debug/Objects-normal/arm64/cmTC_36055_dependency_info.dat -o /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/Debug/cmTC_36055
+
+RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/Debug/cmTC_36055 (in target 'cmTC_36055' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF
+    builtin-RegisterExecutionPolicyException /Users/samanthahuang/p4-clothsim-sp23-rendering-rebels/xcode/CMakeFiles/CMakeScratch/TryCompile-nVzMFF/Debug/cmTC_36055
+
+** BUILD SUCCEEDED **
+
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main(int argc, char **argv) { return 0; }
+

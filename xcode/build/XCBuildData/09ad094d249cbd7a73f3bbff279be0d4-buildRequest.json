@@ -1,0 +1,69 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "da74676cc464aa81a9f078a669b930e4673481c65f87b4df07339777ca618f25"
+    },
+    {
+      "guid" : "da74676cc464aa81a9f078a669b930e478b7c078c525613b9f008d9333dca540"
+    },
+    {
+      "guid" : "da74676cc464aa81a9f078a669b930e489b547c7620b358682024104823d09c7"
+    },
+    {
+      "guid" : "da74676cc464aa81a9f078a669b930e4e26d8e6179bea84158f5f96809320a5b"
+    },
+    {
+      "guid" : "da74676cc464aa81a9f078a669b930e4e0eed3f932ac02d6f5614d3dbb86d025"
+    },
+    {
+      "guid" : "da74676cc464aa81a9f078a669b930e4e52dbea31788d5c2b1fe1edf81949c92"
+    },
+    {
+      "guid" : "da74676cc464aa81a9f078a669b930e41f30b22880f40314d198a322862bd17e"
+    },
+    {
+      "guid" : "da74676cc464aa81a9f078a669b930e471e8ad5581de61e8b372b89c5dd98b94"
+    },
+    {
+      "guid" : "da74676cc464aa81a9f078a669b930e4afcbd4fe8705973e1659bca0f90da346"
+    }
+  ],
+  "containerPath" : "/Users/samanthahuang/cs184_final_proj/xcode/ClothSim.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/samanthahuang/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/samanthahuang/Library/Developer/Xcode/DerivedData/ClothSim-axfbjogstqpdfrczckgmjuhwnwvk/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/samanthahuang/Library/Developer/Xcode/DerivedData/ClothSim-axfbjogstqpdfrczckgmjuhwnwvk/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

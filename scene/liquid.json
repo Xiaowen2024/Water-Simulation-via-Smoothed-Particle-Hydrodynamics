@@ -1,0 +1,20 @@
+{
+    "liquid": {
+      "grid_len": 17,
+      "k_const": 5.0,
+      "mu_const": 36,
+      "g_const": 10,
+      "wall_reflection": -0.5,
+      "BOX_X": 1.5,
+      "BOX_Y": 0.5,
+      "BOX_Z": 0.5,
+      "radius": 0.01,
+      "H": 0.0726,
+      "rest_density": 998.29, 
+      "mass": 0.04,
+      "s": 1.0,
+      "sigma": 6,
+      "l": 5,
+      "start_formation": 2
+    }
+  }
