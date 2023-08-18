@@ -25,8 +25,8 @@ To update the positions of the particles in our system we used Sympelectic Euler
 ## Result 
 With our implementation, we were able to render our fluid in Blender via object files and in real time through our Project 4 Renderer.
 
-![basic] (https://github.com/Xiaowen2024/WaterSimulation-/blob/main/readmeassets/basic.gif)
-![gravity] (https://github.com/Xiaowen2024/WaterSimulation-/blob/main/readmeassets/gravity.gif)
+![basic](https://github.com/Xiaowen2024/WaterSimulation-/blob/main/readmeassets/basic.gif)
+![gravity](https://github.com/Xiaowen2024/WaterSimulation-/blob/main/readmeassets/gravity.gif)
 
 Below is a video of us interacting with the particles in real time by adjusting gravity.
-![marchingcubes] (https://github.com/Xiaowen2024/WaterSimulation-/blob/main/readmeassets/marchingcubes.gif)
+![marchingcubes](https://github.com/Xiaowen2024/WaterSimulation-/blob/main/readmeassets/marchingcubes.gif)
