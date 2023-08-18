@@ -13,7 +13,7 @@ SPH is a computational method that can be used to simulate any continuous media,
 
 The term “smoothed” in SPH comes from how all of these properties are calculated. Properties of a particular particle are determined by the properties of other particles nearby, but particles further away contribute less then ones that are close by. To help determine the contribution of each neighboring particle, a smoothing kernel is used. Our method of calculation ends up being defined as such:
 
-
+![kernels](https://github.com/Xiaowen2024/WaterSimulation-/blob/main/readmeassets/kernels.png)
 ### Neighbor Search
 
 A lot of calculation in this simulation relies on searching for nearby particles. To make this portion of the simulation more efficient, the positions of the particles are hashed and mapped. This way, particles can be easily searched for by hashing a position and using the map to store particles that are all in the same 3D region. Our method of hashing was spatial hashing.
@@ -25,4 +25,8 @@ To update the positions of the particles in our system we used Sympelectic Euler
 ## Result 
 With our implementation, we were able to render our fluid in Blender via object files and in real time through our Project 4 Renderer.
 
+![basic] (https://github.com/Xiaowen2024/WaterSimulation-/blob/main/readmeassets/basic.gif)
+![gravity] (https://github.com/Xiaowen2024/WaterSimulation-/blob/main/readmeassets/gravity.gif)
+
 Below is a video of us interacting with the particles in real time by adjusting gravity.
+![marchingcubes] (https://github.com/Xiaowen2024/WaterSimulation-/blob/main/readmeassets/marchingcubes.gif)
