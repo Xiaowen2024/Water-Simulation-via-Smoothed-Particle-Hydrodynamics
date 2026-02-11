@@ -33,14 +33,15 @@ void Liquid::buildGrid() {
     }
 }
 
-vector<Particle *>* Liquid::get_particle_list(Vector3D pos) {
-    double hash = hash_position(pos);
-    return map[hash];
+const vector<Particle*>& Liquid::get_particle_list(Vector3D pos) {
+    static const vector<Particle*> empty;
+    int64_t hash = hash_position(pos);
+    auto it = spatial_map.find(hash);
+    if (it == spatial_map.end()) return empty;
+    return it->second;
 }
 
 void Liquid::build_grid_centered() {
-  // TODO (Part 1): Build a grid of masses and springs.
-    //Create the masses at the correct positions and add them to the list
     double width = (double) BOX_X;
     double height = (double) BOX_Y;
     double length = (double) BOX_Z;
@@ -65,8 +66,6 @@ void Liquid::build_grid_centered() {
 }
 
 void Liquid::build_grid_corner() {
-  // TODO (Part 1): Build a grid of masses and springs.
-    //Create the masses at the correct positions and add them to the list
     double width = (double) BOX_X;
     double height = (double) BOX_Y;
     double length = (double) BOX_Z;
@@ -90,22 +89,9 @@ void Liquid::build_grid_corner() {
             }
         }
     }
-    
-    
-    for (Particle &p: particles) {
-        double min = 10000.0;
-        for (Particle &np: particles) {
-            if (&p != &np && (p.position - np.position).norm() < min) {
-                min = (p.position - np.position).norm();
-            }
-        }
-        
-    }
 }
 
 void Liquid::build_grid_original() {
-  // TODO (Part 1): Build a grid of masses and springs.
-    //Create the masses at the correct positions and add them to the list
     double width = (double) BOX_X;
     double height = (double) BOX_Y;
     double length = (double) BOX_Z;
@@ -131,27 +117,39 @@ void Liquid::build_grid_original() {
 }
 
 void Liquid::build_spatial_map() {
-  for (const auto &entry : map) {
-    delete(entry.second);
-  }
-  map.clear();
+    spatial_map.clear();
+    spatial_map.reserve(particles.size());
 
-  // TODO (Part 4): Build a spatial map out of all of the point masses.
-    
     for (Particle &p: particles) {
-        float hash = hash_position(p.position);
-        
-        if (map.find(hash) == map.end()) {
-            map[hash] = new vector<Particle *>;
-        }
-        
-        map[hash]->push_back(&p);
+        int64_t hash = hash_position(p.position);
+        spatial_map[hash].push_back(&p);
     }
-    
+}
 
+void Liquid::find_neighbors(const Particle &p, float r, vector<Particle *> &out) {
+    out.clear();
+
+    for (int dx = -1; dx <= 1; ++dx) {
+        for (int dy = -1; dy <= 1; ++dy) {
+            for (int dz = -1; dz <= 1; ++dz) {
+                Vector3D pos = p.position + Vector3D(dx, dy, dz) * this->H;
+                int64_t hash = hash_position(pos);
+                auto it = spatial_map.find(hash);
+                if (it == spatial_map.end()) {
+                    continue;
+                }
+                for (Particle *neighbor_p: it->second) {
+                    if ((neighbor_p->position - p.position).norm() <= r) {
+                        out.push_back(neighbor_p);
+                    }
+                }
+            }
+        }
+    }
 }
 
 double Liquid::W_poly6(double r, double h) {
+    // r is the distance between the two particles, h is the kernel radius
     if (r > h) {
         return 0.0;
     }
@@ -159,6 +157,7 @@ double Liquid::W_poly6(double r, double h) {
 }
 
 double Liquid::grad_W_poly6(double r, double h) {
+    // r is the distance between the two particles, h is the kernel radius
     if (r > h) {
         return 0.0;
     }
@@ -167,6 +166,7 @@ double Liquid::grad_W_poly6(double r, double h) {
 }
 
 double Liquid::grad_2_W_poly6(double r, double h) {
+    // r is the distance between the two particles, h is the kernel radius
     if (r > h) {
         return 0.0;
     }
@@ -191,9 +191,9 @@ double Liquid::grad_2_W_viscosity(double r, double h) {
     return 45.0 / M_PI / pow(h, 6.0) * (h - r);
 }
 
-void Liquid::simulate(double frames_per_sec, double simulation_steps, LiquidParameters *lp,
+void Liquid::simulate(double frames_per_sec, double simulation_steps, const LiquidParameters &lp,
                      vector<Vector3D> external_accelerations,
-                     vector<CollisionObject *> *collision_objects) {
+                     vector<CollisionObject *> &collision_objects) {
   double delta_t = 1.0f / frames_per_sec / simulation_steps;
     double rest_density = this->rest_density;
     double wall_offset = 0.0001;
@@ -201,13 +201,12 @@ void Liquid::simulate(double frames_per_sec, double simulation_steps, LiquidPara
     
     
     build_spatial_map();
-    build_neighbor_map();
     
     //Compute density and pressure
     for (Particle &p: particles) {
         double density = 0.0;
 
-        for(Particle *neighbor_p: *neighbor_map[&p]) {
+        for (Particle *neighbor_p: neighbor_map[&p]) {
 
             double r_val = (neighbor_p->position - p.position).norm();
             if (r_val > this->H) {
@@ -220,14 +219,12 @@ void Liquid::simulate(double frames_per_sec, double simulation_steps, LiquidPara
         
 
         p.density = density;
-        p.pressure = lp->k_const * (density - rest_density);
+        p.pressure = lp.k_const * (density - rest_density);
     }
     
     
     //Compute forces
     for (Particle &p: particles) {
-        double hash = hash_position(p.position);
-        
         //External_forces
         Vector3D total_external_forces = Vector3D(0.0);
         
@@ -239,7 +236,7 @@ void Liquid::simulate(double frames_per_sec, double simulation_steps, LiquidPara
         Vector3D total_pressure_forces = Vector3D(0.0);
         Vector3D total_viscosity_forces = Vector3D(0.0);
         
-        for (Particle *neighbor_p: *neighbor_map[&p]) {
+        for (Particle *neighbor_p: neighbor_map[&p]) {
             double r_val = (neighbor_p->position - p.position).norm();
             
             Vector3D diff_vec = p.position - neighbor_p->position;
@@ -250,7 +247,7 @@ void Liquid::simulate(double frames_per_sec, double simulation_steps, LiquidPara
             total_pressure_forces += -grad_W_spiky(r_val, this->H) * this->mass * (p.pressure + neighbor_p->pressure) / 2 / neighbor_p->density * (diff_vec) / diff_vec.norm();
 
             diff_vec = neighbor_p->velocity - p.velocity;
-            total_viscosity_forces += grad_2_W_viscosity(r_val, this->H) * this->mass / neighbor_p->density * lp->mu_const * diff_vec;
+            total_viscosity_forces += grad_2_W_viscosity(r_val, this->H) * this->mass / neighbor_p->density * lp.mu_const * diff_vec;
         }
         
         //Surface tension forces
@@ -259,7 +256,7 @@ void Liquid::simulate(double frames_per_sec, double simulation_steps, LiquidPara
         double c = 0.0;
         Vector3D n = Vector3D(0.0);
         double grad_2_c = 0.0;
-        for (Particle *neighbor_p: *neighbor_map[&p]) {
+        for (Particle *neighbor_p: neighbor_map[&p]) {
             double r_val = (neighbor_p->position - p.position).norm();
             Vector3D diff_vec = p.position - neighbor_p->position;
             
@@ -300,28 +297,28 @@ void Liquid::simulate(double frames_per_sec, double simulation_steps, LiquidPara
         
         if (p.position.x < 0) {
             p.position.x = 0;
-            p.velocity.x *= lp->wall_reflection;
+            p.velocity.x *= lp.wall_reflection;
         }
         if (p.position.y < 0) {
             p.position.y = 0;
-            p.velocity.y *= lp->wall_reflection;
+            p.velocity.y *= lp.wall_reflection;
         }
         if (p.position.z < 0) {
             p.position.z = 0;
-            p.velocity.z *= lp->wall_reflection;
+            p.velocity.z *= lp.wall_reflection;
         }
         
         if (p.position.x > this->BOX_X) {
             p.position.x = this->BOX_X;
-            p.velocity.x *= lp->wall_reflection;
+            p.velocity.x *= lp.wall_reflection;
         }/*
         if (p.position.y > this->BOX_Y) {
             p.position.y = this->BOX_Y;
-            p.velocity.y *= lp->wall_reflection;
+            p.velocity.y *= lp.wall_reflection;
         }*/
         if (p.position.z > this->BOX_Z) {
             p.position.z = this->BOX_Z;
-            p.velocity.z *= lp->wall_reflection;
+            p.velocity.z *= lp.wall_reflection;
         }
         
         
@@ -359,67 +356,12 @@ void Liquid::simulate(double frames_per_sec, double simulation_steps, LiquidPara
      */
     
     //std::cout <<"--------\n"<< std::flush;
-    
-    
-    
-
 }
 
-void Liquid::build_neighbor_map() {
-  for (const auto &entry : neighbor_map) {
-    delete(entry.second);
-  }
-  neighbor_map.clear();
-
-    //Vector3D vec_array[7] = {Vector3D(0.0, 0.0, 0.0), Vector3D(1.0, 0.0, 0.0), Vector3D(0.0, 1.0, 0.0), Vector3D(0.0, 0.0, 1.0), Vector3D(-1.0, 0.0, 0.0), Vector3D(0.0, -1.0, 0.0), Vector3D(0.0, 0.0, -1.0)};
-    //Vector3D vec_array[1] = {Vector3D(0.0, 0.0, 0.0)};
-    Vector3D vec_array[27] = {Vector3D(0.0, 0.0, 0.0), Vector3D(1.0, 0.0, 0.0), Vector3D(0.0, 1.0, 0.0), Vector3D(0.0, 0.0, 1.0), Vector3D(-1.0, 0.0, 0.0), Vector3D(0.0, -1.0, 0.0), Vector3D(0.0, 0.0, -1.0), Vector3D(1.0, 1.0, 0.0), Vector3D(1.0, 0.0, 1.0), Vector3D(0.0, 1.0, 1.0), Vector3D(-1.0, -1.0, 0.0), Vector3D(-1.0, 0.0, -1.0), Vector3D(0.0, -1.0, -1.0), Vector3D(1.0, -1.0, 0.0), Vector3D(1.0, 0.0, -1.0), Vector3D(0.0, 1.0, -1.0), Vector3D(-1.0, 1.0, 0.0), Vector3D(-1.0, 0.0, 1.0), Vector3D(0.0, -1.0, 1.0), Vector3D(1.0, 1.0, 1.0), Vector3D(-1.0, -1.0, -1.0)};
-    
-    for (Particle &p: particles) {
-        neighbor_map[&p] = new vector<Particle *>;
-        Vector3D pos;
-        double hash;
-        
-        for (Vector3D offset: vec_array) {
-            
-            pos = p.position + offset * this->H;
-            hash = hash_position(pos);
-            
-            
-            if (map.find(hash) == map.end()) {
-                continue;
-            }
-            
-            for (Particle *neighbor_p: *map[hash]) {
-                if ((neighbor_p->position - p.position).norm() < this->H) {
-                    neighbor_map[&p]->push_back(neighbor_p);
-                }
-            }
-            
-        }
-        
-    }
-
-}
-
-
-
-float Liquid::hash_position(Vector3D pos) {
+int64_t Liquid::hash_position(const Vector3D &pos) const {
     int x = (int)floor(pos.x / this->H);
     int y = (int)floor(pos.y / this->H);
     int z = (int)floor(pos.z / this->H);
     
-    return (73856093 * x)  ^ (19349663 * y) ^ (83492791 * z);
-}
-
-///////////////////////////////////////////////////////
-/// YOU DO NOT NEED TO REFER TO ANY CODE BELOW THIS ///
-///////////////////////////////////////////////////////
-
-void Liquid::reset() {
-    for (Particle &p: particles) {
-        p.position = p.start_position;
-        p.old_position = p.position;
-        p.velocity = Vector3D(0.0);
-    }
+    return (int64_t)73856093 * x ^ (int64_t)19349663 * y ^ (int64_t)83492791 * z;
 }

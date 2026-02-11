@@ -166,6 +166,7 @@ set(NANOGUI_BUILD_EXAMPLE OFF CACHE BOOL " " FORCE)
 set(NANOGUI_BUILD_PYTHON  OFF CACHE BOOL " " FORCE)
 set(NANOGUI_INSTALL       OFF CACHE BOOL " " FORCE)
 set(NANOGUI_USE_GLAD      ON  CACHE BOOL " " FORCE)
+set(NANOGUI_BUILD_SHARED  OFF CACHE BOOL " " FORCE)
 
 # Add the configurations from nanogui
 add_subdirectory(ext/nanogui)

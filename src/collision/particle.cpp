@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <nanogui/nanogui.h>
 
-#include "../clothMesh.h"
+#include "CGL/vector3D.h"
 #include "../misc/sphere_drawing.h"
 #include "particle.h"
 

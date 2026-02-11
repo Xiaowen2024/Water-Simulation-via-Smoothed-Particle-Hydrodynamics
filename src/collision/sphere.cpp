@@ -1,32 +1,31 @@
 #include <nanogui/nanogui.h>
 
-#include "../clothMesh.h"
+#include "CGL/vector3D.h"
 #include "../misc/sphere_drawing.h"
 #include "sphere.h"
 
 using namespace nanogui;
 using namespace CGL;
 
-void Sphere::collide(PointMass &pm) {
-  // TODO (Part 3): Handle collisions with spheres.
-    //Check collission
-    double x = pm.position.x;
-    double y = pm.position.y;
-    double z = pm.position.z;
-    double cx = this->origin.x;
-    double cy = this->origin.y;
-    double cz = this->origin.z;
-    
-    if ((x - cx)*(x - cx) + (y - cy)*(y - cy) + (z - cz)*(z - cz) > this->radius * this->radius) {
-        return;
-    }
-    
-    
-    Vector3D pointOnSphere = this->origin + (pm.position - this->origin) / (pm.position - this->origin).norm() * this->radius;
-    Vector3D correctionVec = pointOnSphere - pm.last_position;
-    
-    pm.position = pm.last_position + (1 - friction) * correctionVec;
+void Sphere::collide(Particle &p) {
+  double x = p.position.x;
+  double y = p.position.y;
+  double z = p.position.z;
+  double cx = this->origin.x;
+  double cy = this->origin.y;
+  double cz = this->origin.z;
 
+  if ((x - cx) * (x - cx) + (y - cy) * (y - cy) + (z - cz) * (z - cz) >
+      this->radius * this->radius) {
+    return;
+  }
+
+  Vector3D pointOnSphere = this->origin +
+                           (p.position - this->origin) /
+                               (p.position - this->origin).norm() * this->radius;
+  Vector3D correctionVec = pointOnSphere - p.old_position;
+
+  p.position = p.old_position + (1 - friction) * correctionVec;
 }
 
 void Sphere::render(GLShader &shader) {

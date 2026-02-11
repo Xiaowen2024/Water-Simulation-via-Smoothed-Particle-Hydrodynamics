@@ -3,7 +3,7 @@
 #ifndef particle_h
 #define particle_h
 
-#include "../clothMesh.h"
+#include "CGL/vector3D.h"
 #include "../misc/sphere_drawing.h"
 
 using namespace CGL;

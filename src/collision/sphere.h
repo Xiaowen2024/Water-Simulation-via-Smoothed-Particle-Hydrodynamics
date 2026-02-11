@@ -1,7 +1,7 @@
 #ifndef COLLISIONOBJECT_SPHERE_H
 #define COLLISIONOBJECT_SPHERE_H
 
-#include "../clothMesh.h"
+#include "CGL/vector3D.h"
 #include "../misc/sphere_drawing.h"
 #include "collisionObject.h"
 
@@ -15,7 +15,7 @@ public:
         friction(friction), m_sphere_mesh(Misc::SphereMesh(num_lat, num_lon)) {}
 
   void render(GLShader &shader);
-  void collide(PointMass &pm);
+  void collide(Particle &p);
 
 private:
   Vector3D origin;

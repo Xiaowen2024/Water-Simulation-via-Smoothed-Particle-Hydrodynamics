@@ -1,18 +1,15 @@
 cmake_minimum_required(VERSION 2.8)
 
-# Cloth simulation source
-set(CLOTHSIM_VIEWER_SOURCE
-    # Cloth simulation objects
-    cloth.cpp
-    clothMesh.cpp
-
+# Simulation source
+set(SIM_VIEWER_SOURCE
     # Collision objects
     collision/sphere.cpp
     collision/plane.cpp
+    collision/particle.cpp
 
     # Application
-    main.cpp
-    clothSimulator.cpp
+    liquidSimulator.cpp
+    liquid.cpp
 
     # Miscellaneous
     # png.cpp
@@ -25,7 +22,7 @@ set(CLOTHSIM_VIEWER_SOURCE
 
 # Windows-only sources
 if(WIN32)
-list(APPEND CLOTHSIM_VIEWER_SOURCE
+list(APPEND SIM_VIEWER_SOURCE
     # For get-opt
     misc/getopt.c
 )
@@ -66,9 +63,9 @@ link_directories(
 #-------------------------------------------------------------------------------
 # Add executable
 #-------------------------------------------------------------------------------
-add_executable(clothsim ${CLOTHSIM_VIEWER_SOURCE})
+add_executable(liquidsim ${SIM_VIEWER_SOURCE} main_liquid.cpp)
 
-target_link_libraries(clothsim
+target_link_libraries(liquidsim
     CGL ${CGL_LIBRARIES}
     nanogui ${NANOGUI_EXTRA_LIBS}
     ${FREETYPE_LIBRARIES}
@@ -79,7 +76,7 @@ target_link_libraries(clothsim
 # Platform-specific configurations for target
 #-------------------------------------------------------------------------------
 if(APPLE)
-  set_property( TARGET clothsim APPEND_STRING PROPERTY COMPILE_FLAGS
+  set_property( TARGET liquidsim APPEND_STRING PROPERTY COMPILE_FLAGS
                 "-Wno-deprecated-declarations -Wno-c++11-extensions")
 endif(APPLE)
 
@@ -87,4 +84,4 @@ endif(APPLE)
 set(EXECUTABLE_OUTPUT_PATH ..)
 
 # Install to project root
-install(TARGETS clothsim DESTINATION ${ClothSim_SOURCE_DIR})
+install(TARGETS liquidsim DESTINATION ${ClothSim_SOURCE_DIR})

@@ -1,8 +1,7 @@
 #include "iostream"
 #include <nanogui/nanogui.h>
 
-#include "../clothMesh.h"
-#include "../clothSimulator.h"
+#include "CGL/vector3D.h"
 #include "plane.h"
 
 using namespace std;
@@ -10,29 +9,28 @@ using namespace CGL;
 
 #define SURFACE_OFFSET 0.0001
 
-void Plane::collide(PointMass &pm) {
-  // TODO (Part 3): Handle collisions with planes.
-    //Check if last position and current position are on different sides
-    if (dot((pm.position - this->point), this->normal) < 0 && dot((pm.last_position - this->point), this->normal) < 0) {
-        return;
-    }
-    if (dot((pm.position - this->point), this->normal) > 0 && dot((pm.last_position - this->point), this->normal) > 0) {
-        return;
-    }
-    
-    Vector3D d = this->normal;
-    Vector3D pointOfIntersect = dot((this->point - pm.position), this->normal) / dot(d, this->normal) * d + pm.position;
-    if (dot(this->normal, (pm.last_position - this->point)) >= 0) {
-        pointOfIntersect += (this->normal / this->normal.norm()) * SURFACE_OFFSET;
-    }
-    else {
-        pointOfIntersect -= (this->normal / this->normal.norm()) * SURFACE_OFFSET;
-    }
-    
-    Vector3D correctionVec = pointOfIntersect - pm.last_position;
-    
-    pm.position = pm.last_position + correctionVec * (1 - friction);
+void Plane::collide(Particle &p) {
+  // Check if last position and current position are on different sides
+  if (dot((p.position - this->point), this->normal) < 0 &&
+      dot((p.old_position - this->point), this->normal) < 0) {
+    return;
+  }
+  if (dot((p.position - this->point), this->normal) > 0 &&
+      dot((p.old_position - this->point), this->normal) > 0) {
+    return;
+  }
 
+  Vector3D d = this->normal;
+  Vector3D pointOfIntersect = dot((this->point - p.position), this->normal) /
+                                  dot(d, this->normal) * d + p.position;
+  if (dot(this->normal, (p.old_position - this->point)) >= 0) {
+    pointOfIntersect += (this->normal / this->normal.norm()) * SURFACE_OFFSET;
+  } else {
+    pointOfIntersect -= (this->normal / this->normal.norm()) * SURFACE_OFFSET;
+  }
+
+  Vector3D correctionVec = pointOfIntersect - p.old_position;
+  p.position = p.old_position + correctionVec * (1 - friction);
 }
 
 void Plane::render(GLShader &shader) {
